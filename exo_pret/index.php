@@ -38,7 +38,7 @@
                 <label for="dureeRemboursement" class="centrer3">Durée de remboursements en nb d'année : </label>
                 <input type="number" id="dureeRemboursement" step="1" min="0" max="100" name="dureeRemboursement" class="tab2"></label>
             </div>
-            <div class="champ" class="hauteurplus">
+            <div class="hauteurplus">
                 <input type="submit" value="Valider" name="validation" class="butvalid">
                 <label for="mensualite" class="espace">Mensualité :</label>
                 <input type="text" id="mensualite" step="1" min="0" max="100" name="mensualite" value="<?php

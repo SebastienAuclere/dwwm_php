@@ -7,8 +7,8 @@
     padding-top: 2rem;
 }
 
-.hauteurplus{
-    margin:1rem;
+.hauteurplus {
+    margin-top: 10rem;
 }
 
 .centrer {
@@ -37,8 +37,8 @@
 }
 
 .butvalid {
-    background-color: #e6e6e6; 
-    border-color: #669999;   
+    background-color: #e6e6e6;
+    border-color: #669999;
     margin-left: 3rem;
     padding-left: 3.175rem;
     padding-right: 3.175rem;
@@ -49,30 +49,30 @@
     display: inline;
 }
 
-.espace{
+.espace {
     margin-left: 10rem;
 }
 
-.espace2{
+.espace2 {
     margin-left: 2rem;
     padding-right: 2.5rem;
     background-color: #e4e4ce;
 }
 
-input{
+input {
     border-color: #a6a6a6;
-    border-style: solid;    
+    border-style: solid;
 }
 
-.tailletab{    
+.tailletab {
     width: 34%;
     height: 22rem;
     background-color: grey;
     margin-left: 3rem;
-    border:2px solid black;
+    border: 2px solid black;
 }
 
-.titreagauch{
-    padding-left:1rem;
+.titreagauch {
+    padding-left: 1rem;
     text-align: left;
 }
