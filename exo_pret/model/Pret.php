@@ -73,5 +73,37 @@ class Pret
         $Mensualite = ($this->capitalEmprunte * $this->tauxMensuelInteret()) / $Q;
         $Mensualite = round($Mensualite, 2);
         return $Mensualite;
-    }    
+    }
+    
+    public function tableauAmortissement(): array
+    {
+        $chaineTable = "<table><thead><tr><th>numero de mois</th><th>Intérêts</th><th>partie Amortissement</th><th>capital restant dû
+        </th><th>Mensualité</th></tr></thead><tbody>";
+
+        $nombreDeMoisDeRemboursement = 0;
+        $partInteret = 0;
+        $partAmort = 0;
+        $capitalRestant = $this->capitalEmprunte;
+        $mens = $this->calculMensualite() . "€"; 
+
+        for ( $i=0 ; $i < $this->nombreDeMoisDeRemboursement ; $i++)
+        {
+            $chaineTable.= "<tr>";
+            $nombreDeMoisDeRemboursement = $i+1;
+            $partInteret = $capitalRestant*$this->tauxMensuelInteret;
+            $partAmort = $mens - $partInteret;
+            if ( $i = 0 )
+            {
+                $capitalRestant -= $partAmort;
+            } 
+
+            $chaineTable.="<td>". $nombreDeMoisDeRemboursement."</td><td>". $partInteret."</td><td>"
+            .$partAmort."</td><td>".$capitalRestant."</td><td>".$mens;
+
+            $chaineTable.="</tr>";
+        }
+    }
+
+
+
 }
