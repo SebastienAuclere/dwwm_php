@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calcul d'une mensualité d'un pret</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./moncss/style1.css">
 </head>
 
 <body>
@@ -74,7 +74,5 @@
             </div>
         </div>
     </form>
-
 </body>
-
 </html>
