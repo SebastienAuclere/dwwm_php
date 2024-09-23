@@ -49,30 +49,16 @@
 
                                                                                                         ?>" class="espace2">
             </div>
-            <div class="champ">
-                <table class="tailletab">
-                    <caption class="titreagauch">Tableau de remboursements (d'amortissements) du prêt</caption>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
+            <div class="titreagauch champ">
+                <caption>Tableau de remboursements (d'amortissements) du prêt:</caption>
+            </div>
+            <div class="tailletab">
+                <?php
+                echo $monpret->tableauAmortissement();
+                ?>
             </div>
         </div>
     </form>
 </body>
+
 </html>

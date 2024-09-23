@@ -9,9 +9,9 @@ class Pret
     private int $dureeRembNbAnnee;
 
     //constante statique ( même valeur pour tous les objets )
-    
+
     //pas de constantes dans cette classe
-    
+
     //propriétés ( accesseur / modifieur)
 
     public function getCapitalEmprunte(): int
@@ -68,14 +68,14 @@ class Pret
     }
 
     public function calculMensualite(): float
-    {   
-        $Q = 1 - pow( 1 + $this->tauxMensuelInteret() , - ($this->nombreDeMoisDeRemboursement()));
+    {
+        $Q = 1 - pow(1 + $this->tauxMensuelInteret(), - ($this->nombreDeMoisDeRemboursement()));
         $Mensualite = ($this->capitalEmprunte * $this->tauxMensuelInteret()) / $Q;
         $Mensualite = round($Mensualite, 2);
         return $Mensualite;
     }
-    
-    public function tableauAmortissement(): array
+
+    public function tableauAmortissement(): string
     {
         $chaineTable = "<table><thead><tr><th>numero de mois</th><th>Intérêts</th><th>partie Amortissement</th><th>capital restant dû
         </th><th>Mensualité</th></tr></thead><tbody>";
@@ -84,26 +84,24 @@ class Pret
         $partInteret = 0;
         $partAmort = 0;
         $capitalRestant = $this->capitalEmprunte;
-        $mens = $this->calculMensualite() . "€"; 
-
-        for ( $i=0 ; $i < $this->nombreDeMoisDeRemboursement ; $i++)
-        {
-            $chaineTable.= "<tr>";
-            $nombreDeMoisDeRemboursement = $i+1;
-            $partInteret = $capitalRestant*$this->tauxMensuelInteret;
+        $mens = $this->calculMensualite();
+        $nbmois = $this->nombreDeMoisDeRemboursement();
+        // echo $nbmois;
+        for ($i = 0; $i < $nbmois; $i++) {
+            $chaineTable .= "<tr>";
+            $nombreDeMoisDeRemboursement = $i + 1;
+            $partInteret = $capitalRestant * $this->tauxMensuelInteret();
             $partAmort = $mens - $partInteret;
-            if ( $i = 0 )
-            {
+            if ($i > 0) {
                 $capitalRestant -= $partAmort;
-            } 
+            }
 
-            $chaineTable.="<td>". $nombreDeMoisDeRemboursement."</td><td>". $partInteret."</td><td>"
-            .$partAmort."</td><td>".$capitalRestant."</td><td>".$mens;
+            $chaineTable .= "<td>" . $nombreDeMoisDeRemboursement . "</td><td>" . round($partInteret, 2) . "</td><td>"
+                . round($partAmort, 2) . "</td><td>" . round($capitalRestant, 2) . "</td><td>" . $mens;
 
-            $chaineTable.="</tr>";
+            $chaineTable .= "</tr>";
         }
+        $chaineTable .= "</tbody></table>";
+        return $chaineTable;
     }
-
-
-
 }
