@@ -4,32 +4,34 @@ class Dbconnect
 
     //attributs
 
-    private int $servername;
-    private float $username;
-    private int $password;    
+    private string $servername;
+    private string $username;
+    private string $password;
+    private string $dbname;
 
     //constructeur
 
-    public function __construct(int $_servername, float $_username, int $_password)
+    public function __construct(string $_servername, string $_username, string $_password, string $_dbname)
     {
         $this->servername = $_servername;
         $this->username = $_username;
         $this->password = $_password;
+        $this->dbname = $_dbname;
     }
 
     //fonctions
 
-    function affichage(){        
-
-        try {
-            $conn = new PDO("mysql:host=$this->servername;dbname=myDB", $this->username, $this->password);
-            // set the PDO error mode to exception
-            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "Connected successfully";
-        } catch (PDOException $e) {
+    function tryConnect(): ?PDO
+    {
+        try
+        {
+            $connection = new PDO("mysql:host=" . $this->servername . ";dbname=" . $this->dbname . ";charset=utf8", $this->username, $this->password);            
+            return $connection;
+        } 
+        catch (PDOException $e) 
+        {
             echo "Connection failed: " . $e->getMessage();
+            return null;
         }
-
     }
-    
-}    
+}

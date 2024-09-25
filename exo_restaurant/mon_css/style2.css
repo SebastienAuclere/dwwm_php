@@ -1,0 +1,93 @@
+.boite {
+    background-color: #e4e4ce;
+    height: 100rem;
+}
+
+.champ {
+    padding-top: 2rem;
+}
+
+.hauteurplus {
+    padding-top: 4rem;
+}
+
+.centrer {
+    padding-left: 10rem;
+}
+
+.centrer2 {
+    padding-left: 9.5rem;
+}
+
+.centrer3 {
+    padding-left: 3rem;
+}
+
+.tab {
+    margin-left: 2.7rem;
+}
+
+.tab1 {
+    margin-left: 2.8rem;
+    padding-right: 5.3rem;
+}
+
+.tab2 {
+    padding-right: 6.5rem;
+}
+
+.butvalid {
+    background-color: #e6e6e6;
+    border-color: #669999;
+    margin-left: 3rem;
+    padding-left: 3.175rem;
+    padding-right: 3.175rem;
+    border-radius: 3px;
+}
+
+.memeligne {
+    display: inline;
+}
+
+.espace {
+    margin-left: 10rem;
+}
+
+.espace2 {
+    margin-left: 2rem;
+    padding-right: 2.5rem;
+    background-color: #e4e4ce;
+}
+
+input {
+    border-color: #a6a6a6;
+    border-style: solid;
+}
+
+.tailletab {
+    margin-top: 2rem;
+    width: 31rem;
+    height: 65.5rem;
+    background-color: grey;
+    margin-left: 3rem;
+    border: 2px solid black;
+    
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.titreagauch {
+    padding-left: 3rem;
+    
+}
+
+caption{
+    margin-top:2rem;
+    margin-left: 3rem;
+}
