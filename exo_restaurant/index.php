@@ -18,28 +18,39 @@
 
     $mylist = new RestoRepository($myPdo, "restaurants");
 
+    // var_export($mylist->searchOne("ladryatikeau"));
+
 
 
     ?>
     <form action="" method="get" enctype="text/plain">
         <div class="boite">
-            <div class="champ">
-                <label for="username" class="centrer2">Nom d'utilisateur:</label>
-                <input type="text" id="username" name="username" class="tab1"></label>
-            </div>
-            <div class="hauteurplus">
-                <label for="password" class="espace">Mot de Passe:</label>
-                <input type="text" id="password" max="50" name="password" value="<?php
-
-                                                                                    ?>">
-                <input type="submit" value="Valider" name="validation" class="butvalid" class="espace2">
-            </div>
             <div>
-                <caption>Tableau des restaurants:</caption>
+                <label for="username" class="champ">Nom d'utilisateur:</label>
+                <input type="text" id="username" name="username" class="champ"></label>
             </div>
+            <div class="champ">
+                <label for="password">Mot de Passe:</label>
+                <input type="text" id="password" max="50" name="password" value="<?php ?>" class="champ2">
+                <input type="submit" value="Valider" name="validation" class="butvalid">
+            </div>
+            <p>Tableau des restaurants:</p>
             <div class="tailletab">
                 <?php
-                var_export($mylist->searchAll());
+
+                $data = $mylist->searchAll();
+
+                echo "<table><thead><tr><th>id</th><th>nom</th><th>adresse</th><th>prix</th><th>commentaire</th><th>note</th><th>visite></th></tr></thead><tbody>";
+
+                for ($i = 0; $i < count($data); $i++) {
+                    echo "<tr>";
+                    foreach ($data[$i] as $key => $value) {
+                        echo "<td>" . $value . "</td>";
+                    }
+                    echo "</tr>";
+                }
+                echo "</tbody></table>";
+
                 ?>
             </div>
         </div>
