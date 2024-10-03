@@ -13,7 +13,7 @@
 <body>
     <?php
 
-    for ($i = 0; $i < 2; $i++) {
+    for ($i = 0; $i < 3; $i++) {
 
         $a = rand(0, 10);
         $b = rand(0, 10);
@@ -21,15 +21,17 @@
 
         $Delta = $b * $b - (4 * $a * $c);
 
+        echo "pour le tour de la boucle" . $i + 1 . ",";
+
         if ($Delta > 0) {
-            echo "l'équation a deux solutions réelles distinctes.";
-            echo $d = (-$b + (pow($Delta, 1 / 2)) / 2 * $a);
-            echo $e = (-$b - (pow($Delta, 1 / 2)) / 2 * $a);
+            echo " l'équation a deux solutions réelles distinctes : <br>";
+            echo $d = (-$b + (pow($Delta, 1 / 2)) / 2 * $a) . "<br>";
+            echo $e = (-$b - (pow($Delta, 1 / 2)) / 2 * $a) . "<br>";
         } elseif ($Delta === 0) {
-            echo "l'équation a une solution réelle double.";
-            echo $f = (-$b / 2 * $a);
+            echo " l'équation a une solution réelle double: <br>";
+            echo $f = (-$b / 2 * $a) . "<br>";
         } else {
-            echo "l'équation n'a pas de solution réelle";
+            echo " l'équation n'a pas de solution réelle. <br>";
         }
     }
 
