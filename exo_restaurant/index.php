@@ -31,7 +31,7 @@
             </div>
             <div class="champ">
                 <label for="password">Mot de Passe:</label>
-                <input type="text" id="password" max="50" name="password" value="<?php ?>" class="champ2">
+                <input type="text" id="password" max="50" name="password" value="<?php echo "khgkgkgjk"; ?>" class="champ2">
                 <input type="submit" value="Valider" name="validation" class="butvalid">
             </div>
             <p>Tableau des restaurants:</p>
@@ -50,6 +50,8 @@
                     echo "</tr>";
                 }
                 echo "</tbody></table>";
+
+                echo $mylist->ajouterResteau("Burger King", "rue des Mimosas", 15, "C\'est pour les enfants", 5, "2024-05-06");
 
                 ?>
             </div>

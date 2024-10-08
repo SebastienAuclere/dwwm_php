@@ -1,5 +1,5 @@
 .boite {
-    background-color: #e4e4ce;
+    background-color: white;
     height: 120rem;
 }
 
@@ -57,4 +57,13 @@ p {
 
 .champ3 {
     margin-left: 2rem;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #dadbe4;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: #999399;
 }

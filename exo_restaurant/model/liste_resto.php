@@ -57,4 +57,16 @@ class RestoRepository
             return $row;
         }
     }
+
+    public function ajouterResteau(string $_nom, string $_adresse, float $_prix, string $_Commentaire, int $_Note, string $_visite): bool
+    {
+        $rq = "insert into " . $this->nomTable . " values (id, '" . $_nom . "','" . $_adresse . "'," . $_prix . ",'" . $_Commentaire . "'," . $_Note . ",'" . $_visite . "')";
+        echo $rq;
+        $numberLigne = $this->connect->exec($rq);
+        if ($numberLigne == 1) {
+            return true;
+        }
+
+        return false;
+    }
 }
