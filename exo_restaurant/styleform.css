@@ -1,12 +1,13 @@
-body{
+body {
     font-weight: bold;
-    color:white;
+    color: white;
 }
 
 .background {
-    width: 28%;
-    background-color: dodgerblue;
-    background-image: url(https: //www.w3schools.com/css/img_mountains.jpg) ;
+    width: 35%;
+    /* background-color: dodgerblue; */
+    background-image: url(images/burger.jpg);
+    background-size: 600px 600px;
     margin: 2%;
     padding: 2%;
     border-radius: 15px;
@@ -20,12 +21,11 @@ input {
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19) inset;
 }
 
-label{
-    
-}
+label {}
 
 textarea {
     margin-top: 1rem;
+    border-radius: 10px;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19) inset;
 }
 
@@ -55,7 +55,7 @@ textarea {
 }
 
 .center7 {
-    background-color:rgb(108, 108, 241);
+    background-color: rgb(168, 35, 35);
     font-weight: bold;
     color: white;
     margin-left: 237px;
