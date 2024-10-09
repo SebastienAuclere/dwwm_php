@@ -1,4 +1,63 @@
-input{
+body{
+    font-weight: bold;
+    color:white;
+}
+
+.background {
+    width: 28%;
+    background-color: dodgerblue;
+    background-image: url(https: //www.w3schools.com/css/img_mountains.jpg) ;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+    margin: 1rem;
+    width: 9rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19) inset;
+}
+
+label{
     
 }
 
+textarea {
+    margin-top: 1rem;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19) inset;
+}
+
+.center1 {
+    margin-left: 189px;
+}
+
+.center2 {
+    margin-left: 176px;
+}
+
+.center3 {
+    margin-left: 55px;
+}
+
+.center4 {
+    margin-left: 0px;
+}
+
+.center5 {
+    margin-left: 65px;
+}
+
+.center6 {
+    margin-left: 17px;
+    width: 9.25rem;
+}
+
+.center7 {
+    background-color:rgb(108, 108, 241);
+    font-weight: bold;
+    color: white;
+    margin-left: 237px;
+    width: 9.45rem;
+}
