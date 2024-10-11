@@ -4,11 +4,11 @@ $note = 12;
 
 if (/*condition qui prends une valeur booleene (true or false)*/ $note >= 10)
 {
-    /*si cette condition est true faire cette instruction */ echo 'Bravo vous avez la moyenne';
+    /*si cette condition est true faire cette instruction */ echo 'Bravo vous avez la moyenne' . PHP_EOL .'';
 }
 else
 {
-    /*sinon faire cette instruction*/ echo 'Dommage vous n\'avez pas la moyenne';
+    /*sinon faire cette instruction*/ echo 'Dommage vous n\'avez pas la moyenne' . PHP_EOL . '';
 }
 
 // ceci donneras :
@@ -27,9 +27,9 @@ $note = readline('Entrez votre note :'); // Fonction readline()
 
 if ( $note >= 10 )
 {
-    echo 'Bravo vous avez la moyenne';
+    echo 'Bravo vous avez la moyenne' . PHP_EOL . '';
 }
 else
 {
-    echo 'Dommage vous n\'avez pas la moyenne';
+    echo 'Dommage vous n\'avez pas la moyenne' . PHP_EOL . '';
 }
