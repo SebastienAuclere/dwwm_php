@@ -36,7 +36,7 @@ echo "\n" . $eleve[2][1];
 
 // on peut mettre un tableau dans un tableau, ici on recupere dans le tableau 1 la deuxieme partie du tableau et dans celui ci la 2eme note
 
-// on peut aussi associer les index automatiques ([0],[1],[2]...) par des indexs particuliers en leurs donnant une valeur particuliere (entier ou chaine de caractere) :
+// on peut aussi associer les index automatiques ([0],[1],[2]...) par des indexs particuliers en leur donnant une valeur particuliere (entier ou chaine de caractere) :
 
 // Exemple 
 
@@ -53,7 +53,7 @@ $eleve = [
 ];
 
 echo "\n" . $eleve['nom'] . " " . $eleve['prenom']; // affiche le nom et le prenom du tableau $eleve
-echo "\n" . $eleve['notes'][1]; // affiche la note 2 du tableau $eleve
+echo "\n" . $eleve['notes'][1]; // affiche la note 2 du tableau $eleve dans le tableau 'notes'
 
 // pour modifier le prenom :
 
@@ -69,6 +69,82 @@ echo "\n" . $eleve['notes'][3]; // affiche 16
 
 echo "\n" . $eleve['notes']; 
 
-// pour retourner les notes il faut utiliser une fonction print_r a laquelle on doit utiliser les parentheses :
+// pour retourner les notes il faut utiliser une fonction print_r a laquelle on doit utiliser les parentheses : (car echo renvoie un string ou un nombre)
 
 print_r($eleve['notes']);
+
+// affiche le tableau :
+
+// Array
+// (
+//     [0] => 10
+//     [1] => 20
+//     [2] => 15
+//     [3] => 16
+// )
+
+// pour rajouter un element, on ecrit :
+
+$eleve['notes'][] = 16; // cela rajoute un element a la fin du tableau qui a pour valeur 16 et cela mettra le bon index automatiquement (ici index 4)
+
+// quand il y as beaucoup de lignes a ecrire c'est plus simple : copier coller
+
+// exemple : 
+
+$eleve['notes'][] = 16;
+$eleve['notes'][] = 16;
+$eleve['notes'][] = 16;
+$eleve['notes'][] = 16;
+$eleve['notes'][] = 16;
+
+print_r($eleve['notes']); // affiche toutes les nouvelles notes + leur nouvel index
+
+// si je fais ca :
+
+$eleve[] = 'CM2-A';
+
+// alors cela rajoute une valeur a la suite des autres et ne rajoute pas de notes mais une nouvelle valeur au tableau eleve.
+
+print_r($eleve);
+
+// cela affiche :
+// Array
+// (
+//     [nom] => Doe
+//     [prenom] => jean
+//     [notes] => Array
+//         (
+//             [0] => 10
+//             [1] => 20
+//             [2] => 15
+//             [3] => 16
+//             [4] => 16
+//             [5] => 16
+//             [6] => 16
+//             [7] => 16
+//             [8] => 16
+//             [9] => 16
+//         )
+
+//     [0] => CM2-A  <======== ici un index qui part de '0'
+// )
+
+/////////////////// un tableau dans un tableau dans un tableau //////////////////
+
+// exemple d'une classe avec des eleves qui ont des notes :
+
+$classe = [
+    [
+        'nom' => 'Doe',
+        'prenom' => 'Jean',
+        'notes' => [16, 16, 16]
+    ],                                                 //     !! L'indentation d'un tableau
+    [                                                  //     !! est tres importante                
+        'nom' => 'Doe',                                //     !! pour bien s'y retrouver   
+        'prenom' => 'Joe',
+        'notes' => [12, 15, 17]
+    ]
+];
+
+echo $classe[1]['notes'][1]; // ceci renverras donc dans le tableau classe la deuxieme partie du premier
+//tableau pour la valeur notes la deuxieme note. 
