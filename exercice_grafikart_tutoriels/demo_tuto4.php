@@ -93,5 +93,57 @@ $eleves = [
 ];
                     //"key"   "valeurs"
 foreach ($eleves as $classe => $eleve){
-    echo "$eleve est dans la classe $classe \n";
+    echo "$eleve est dans la classe $classe \n";  // affiche Jean est dans la classe cm2 / Marc est dans la classe cm1
+}
+
+
+/// exemple plus difficile : un foreach dans un foreach :
+
+$eleves2 = [
+    'cm1' => ['Jean', 'Marc', 'Jane', 'Marion'],      
+    'cm2' => ['Emilie', 'Marcelin']
+];
+
+foreach ($eleves2 as $classe2 => $listEleves){  // La classe cm1 :
+    echo "La classe $classe2 :\n";              // - Jean
+    foreach ($listEleves as $eleve2){           // - Marc
+        echo "- $eleve2\n";                     // - Jane
+    }                                           // - Marion
+    echo "\n";                                  //  
+}                                               // La classe cm2 :
+                                                // - Emilie
+                                                // - Marcelin
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//////////////// Exercices de mise en situation //////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//////////////// Donné par grafikart a réaliser //////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+/* 
+Demande à l'utilisateur de rentrer une note ou tapper la mot "fin"
+chaque note est sauvegardée dans un tableau $notes (pensez $notes[])
+à la fin on affiche le tableau de notes sous forme de liste
+*/
+
+$note = null;
+$notes[];
+
+$note = (int)readline("Entrez votre note : (la note doit etre entre 0 et 20, sinon tappez le mot 'fin' ");
+
+
+if ($note >= 0 && $note <= 20){
+    $notes[] = $note;
+
+// alors cela rajoute une valeur a la suite des autres et ne rajoute pas de notes mais une nouvelle valeur au tableau eleve.
+
+}elseif ($note >= '0' && $note <= '20'){
+
+}elseif ($note === 'fin'){
+
+}else{
+
 }
