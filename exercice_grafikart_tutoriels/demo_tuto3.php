@@ -2,13 +2,12 @@
 
 $note = 12;
 
-if (/*condition qui prends une valeur booleene (true or false)*/ $note >= 10)
-{
-    /*si cette condition est true faire cette instruction */ echo 'Bravo vous avez la moyenne' . PHP_EOL .'';
-}
-else
-{
-    /*sinon faire cette instruction*/ echo 'Dommage vous n\'avez pas la moyenne' . PHP_EOL . '';
+if (/*condition qui prends une valeur booleene (true or false)*/$note >= 10) {
+    /*si cette condition est true faire cette instruction */
+    echo 'Bravo vous avez la moyenne' . PHP_EOL . '';
+} else {
+    /*sinon faire cette instruction*/
+    echo 'Dommage vous n\'avez pas la moyenne' . PHP_EOL . '';
 }
 
 // ceci donneras :
@@ -22,14 +21,11 @@ else
 // Pour plus d'interraction : on peut faire ca aussi :
 
 $note = readline('Entrez votre note :'); // Fonction readline()
-                                         // Dans le terminal seras affiche 'Entrer votre note :', vous tappez cette note
-                                         // dans le terminal et il afficheras le bloc de code correspondant. 
+// Dans le terminal seras affiche 'Entrer votre note :', vous tappez cette note
+// dans le terminal et il afficheras le bloc de code correspondant. 
 
-if ( $note >= 10 )
-{
-    echo 'Bravo vous avez la moyenne' . PHP_EOL . '';
-}
-else
-{
-    echo 'Dommage vous n\'avez pas la moyenne' . PHP_EOL . '';
+if ($note >= 10) {
+    echo 'Bravo vous avez la moyenne'; // . PHP_EOL . '';
+} else {
+    echo 'Dommage vous n\'avez pas la moyenne'; // . PHP_EOL . '';
 }
