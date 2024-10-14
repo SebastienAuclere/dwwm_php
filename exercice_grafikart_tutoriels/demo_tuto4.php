@@ -93,5 +93,5 @@ $eleves = [
 ];
                     //"key"   "valeurs"
 foreach ($eleves as $classe => $eleve){
-    echo "$eleve est dans la classe $classe /n";
+    echo "$eleve est dans la classe $classe \n";
 }
