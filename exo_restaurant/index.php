@@ -13,14 +13,7 @@
     require "./model/dbconnect.php";
     require "./model/liste_resto.php";
 
-
-
-
     $mylist = new RestoRepository("restaurants");
-
-    // var_export($mylist->searchOne("ladryatikeau"));
-
-
 
     ?>
     <form action="" method="get" enctype="text/plain">

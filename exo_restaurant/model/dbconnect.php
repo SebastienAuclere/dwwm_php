@@ -10,8 +10,6 @@
         private const USER = "root";
         private const PWD = "";
 
-
-
         //constructeur
 
         private function __construct() {}
@@ -23,7 +21,6 @@
             if (is_null(self::$connection)) {
                 self::$connection = new PDO("mysql:host=" . self::HOST . "; dbname=" . self::DBNAME . ";charset=utf8mb4", self::USER, self::PWD);
             }
-
             return self::$connection;
         }
     }
