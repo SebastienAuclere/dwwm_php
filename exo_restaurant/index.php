@@ -13,8 +13,8 @@
         require "./model/dbconnect.php";                                                   // Ces lignes incluent les fichiers dbconnect.php et liste_resto.php. 
         require "./model/liste_resto.php";                                                 // Le mot-clé require est utilisé pour inclure et évaluer les fichiers spécifiés.
                                                                                            // Si l’un des fichiers n’est pas trouvé, une erreur fatale sera générée et l’exécution du script s’arrêtera.
-        $mylist = new RestoRepository("restaurants");                                      // Création d’une instance de RestoRepository : Ces lignes incluent les fichiers dbconnect.php et liste_resto.php. Le mot-clé require est utilisé pour inclure 
-    ?>                                                                                     <!--et évaluer les fichiers spécifiés. Si l’un des fichiers n’est pas trouvé, une erreur fatale sera générée et l’exécution du script s’arrêtera.-->
+        $mylist = new RestoRepository("restaurants");                                      // Création d’une instance de RestoRepository 
+    ?>                                                                                     
     <form action="" method="get" enctype="text/plain">                                     
             <div>
                 <label for="username" class="champ">Nom d'utilisateur:</label>

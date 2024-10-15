@@ -26,8 +26,7 @@
                 ";charset=utf8mb4", self::USER, self::PWD);  // par les constantes HOST, DBNAME, USER, et PWD
             }                                                // La connexion utilise le charset utf8mb4 pour assurer 
                                                              // une bonne gestion des caractères spéciaux.
-            return self::$connection;      // La connexion utilise le charset utf8mb4 pour assurer une bonne gestion
-                                           // des caractères spéciaux.                                          
+            return self::$connection;                                                
         }
     }
 
