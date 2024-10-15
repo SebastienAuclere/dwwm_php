@@ -1,39 +1,29 @@
  <?php
-class Dbconnect
-{
-
-    //attributs
-
-    private string $servername;
-    private string $username;
-    private string $password;
-    private string $dbname;
-
-    //constructeur
-
-    public function __construct(
-        string $_servername,
-        string $_username,
-        string $_password,
-        string $_dbname
-    ) {
-        $this->servername = $_servername;
-        $this->username = $_username;
-        $this->password = $_password;
-        $this->dbname = $_dbname;
-    }
-
-    //fonctions
-
-    function tryConnect(): ?PDO
+    class Dbconnect
     {
-        try {
-            $connection = new PDO("mysql:host=" . $this->servername . ";dbname="
-                . $this->dbname . ";charset=utf8", $this->username, $this->password);
-            return $connection;
-        } catch (PDOException $e) {
-            echo "Connection failed: " . $e->getMessage();
-            return null;
+
+        //attributs
+
+        private static ?PDO $connection = null;
+        private const HOST = "localhost";
+        private const DBNAME = "guide";
+        private const USER = "root";
+        private const PWD = "";
+
+
+
+        //constructeur
+
+        private function __construct() {}
+
+        //fonctions
+
+        public static function getInstance(): PDO
+        {
+            if (is_null(self::$connection)) {
+                self::$connection = new PDO("mysql:host=" . self::HOST . "; dbname=" . self::DBNAME . ";charset=utf8mb4", self::USER, self::PWD);
+            }
+
+            return self::$connection;
         }
     }
-}

@@ -11,18 +11,18 @@ class RestoRepository
     //constructeur
 
     public function __construct(
-        PDO $_connect,
+
         string $_nomTable,
         array $_tabChamp = []
     ) {
-        $this->connect = $_connect;
+        $this->connect = Dbconnect::getInstance();
         $this->nomTable = $_nomTable;
         $this->tabChamp = $_tabChamp;
     }
 
     //fonctions
 
-    public function chercherResteau($_id): array
+    public function chercherResteau($_id): array /// chercher le restaurant par l'id 
     {
         $rq = "select * from " . $this->nomTable . " where soundex(id) = soundex(:idresto)";
         $res = $this->connect->prepare($rq);
@@ -36,15 +36,7 @@ class RestoRepository
         }
     }
 
-    public function searchAll(): array
-    {
-        $rq = "select * from " . $this->nomTable;
-        $res = $this->connect->query($rq, PDO::FETCH_ASSOC);
-        $tabData = $res->fetchAll();
-        return $tabData;
-    }
-
-    public function searchOne($_nomResteau): array
+    public function searchOne($_nomResteau): array /// chercher le restaurant par le nom du resteau 
     {
         $rq = "select * from " . $this->nomTable . " where soundex(nom) = soundex(:nomresto)";
         $res = $this->connect->prepare($rq);
@@ -58,7 +50,15 @@ class RestoRepository
         }
     }
 
-    public function ajouterResteau(string $_nom, string $_adresse, float $_prix, string $_Commentaire, int $_Note, string $_visite): bool
+    public function searchAll(): array /// donne tout le tableau
+    {
+        $rq = "select * from " . $this->nomTable;
+        $res = $this->connect->query($rq, PDO::FETCH_ASSOC);
+        $tabData = $res->fetchAll();
+        return $tabData;
+    }    
+
+    public function ajouterResteau(string $_nom, string $_adresse, float $_prix, string $_Commentaire, int $_Note, string $_visite): bool  /// ajoute un resteau
     {
         $rq = "insert into " . $this->nomTable . " values (id, '" . $_nom . "','" . $_adresse . "'," . $_prix . ",'" . $_Commentaire . "'," . $_Note . ",'" . $_visite . "')";
         echo $rq;
@@ -66,7 +66,6 @@ class RestoRepository
         if ($numberLigne == 1) {
             return true;
         }
-
         return false;
     }
 }

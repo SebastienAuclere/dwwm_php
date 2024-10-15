@@ -13,10 +13,10 @@
     require "./model/dbconnect.php";
     require "./model/liste_resto.php";
 
-    $myconnect = new Dbconnect("localhost", "root", "", "guide");
-    $myPdo = $myconnect->tryConnect();
 
-    $mylist = new RestoRepository($myPdo, "restaurants");
+
+
+    $mylist = new RestoRepository("restaurants");
 
     // var_export($mylist->searchOne("ladryatikeau"));
 

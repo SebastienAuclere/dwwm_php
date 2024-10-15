@@ -1,12 +1,11 @@
 <?php
-    require "./model/dbconnect.php";
-    require "./model/liste_resto.php";
+require "./model/dbconnect.php";
+require "./model/liste_resto.php";
 
-    $connect = new Dbconnect("localhost","root","","guide");
-    $myPdo = $connect->tryConnect();
 
-    $myCrud = new RestoRepository($myPdo,"restaurants");
-    $data = $myCrud->chercherResteau($_GET["id"]);
+
+$myCrud = new RestoRepository("restaurants");
+$data = $myCrud->chercherResteau($_GET["id"]);
 
 
 ?>
