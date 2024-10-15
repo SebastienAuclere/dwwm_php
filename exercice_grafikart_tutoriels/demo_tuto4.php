@@ -124,26 +124,38 @@ foreach ($eleves2 as $classe2 => $listEleves){  // La classe cm1 :
 //////////////////////////////////////////////////////////////////////////
 
 /* 
-Demande à l'utilisateur de rentrer une note ou tapper la mot "fin"
+Demande à l'utilisateur de rentrer une note ou tapper le mot "fin"
 chaque note est sauvegardée dans un tableau $notes (pensez $notes[])
 à la fin on affiche le tableau de notes sous forme de liste
 */
 
 $note = null;
-$notes[];
+$notes = [];
 
 $note = (int)readline("Entrez votre note : (la note doit etre entre 0 et 20, sinon tappez le mot 'fin' ");
 
-
-if ($note >= 0 && $note <= 20){
+if ($note >= 0 && $note <= 20)
+{
     $notes[] = $note;
-
-// alors cela rajoute une valeur a la suite des autres et ne rajoute pas de notes mais une nouvelle valeur au tableau eleve.
-
-}elseif ($note >= '0' && $note <= '20'){
-
-}elseif ($note === 'fin'){
-
-}else{
-
 }
+elseif ($note === 'fin')
+{
+    echo "fin de la saisie";
+}
+else
+{
+    echo "Le chiffre doit etre egal ou superieur a 0 et egal ou inferieur a 20 ";
+}
+
+while ($note === 'fin'){
+    $notes[] = $note;
+}
+
+foreach ($notes as $note) 
+{  
+    echo "Les notes du tableau sont : "; 
+    echo "- $note \n";    
+} 
+echo "\n";                                          
+                          
+                                              
