@@ -30,7 +30,6 @@
         }
     }
 
-
     // resume : Cette classe utilise le pattern Singleton pour s’assurer qu’il n’y a qu’une seule connexion
     // à la base de données à tout moment. 
     // Cela permet d’optimiser les ressources et de gérer efficacement la connexion à la base de données.
