@@ -1,6 +1,6 @@
 body {
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .background {
@@ -21,7 +21,7 @@ input {
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19) inset;
 }
 
-label {}
+
 
 textarea {
     margin-top: 1rem;
