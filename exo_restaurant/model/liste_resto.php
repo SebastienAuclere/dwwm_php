@@ -10,8 +10,8 @@ class RestoRepository
 
     //constructeur
 
-    public function __construct(string $_nomTable, array $_tabChamp = []) {  // Un constructeur public qui initialise 
-                                                                             // les attributs de la classe
+    public function __construct(string $_nomTable, array $_tabChamp = []) {  // Un constructeur public qui initialise les attributs de la classe
+        
         $this->connect = Dbconnect::getInstance();  //  La connexion à la base de données est établie en utilisant la méthode getInstance de la classe Dbconnect
         $this->nomTable = $_nomTable;               //  Le nom de la table est passé en paramètre et assigné à l’attribut $nomTable
         $this->tabChamp = $_tabChamp;               //  Un tableau de champs est passé en paramètre et assigné à l’attribut $tabChamp. Ce paramètre est optionnel et par défaut, c’est un tableau vide.

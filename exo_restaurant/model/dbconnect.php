@@ -20,7 +20,7 @@
 
         public static function getInstance(): PDO  
         {
-            if (is_null(self::$connection)) {      // Si l’attribut $connection est null, 
+            if (is_null(self::$connection)) {      // Si l’attribut $connection est null, (is_null — Indique si une variable vaut null) self:: c'est comme $this-> pour recuperer un attribut d'une classe static 
                 self::$connection = new PDO("mysql:host="    // il crée une nouvelle instance de PDO 
                 . self::HOST . "; dbname=" . self::DBNAME .  // avec les paramètres de connexion définis
                 ";charset=utf8mb4", self::USER, self::PWD);  // par les constantes HOST, DBNAME, USER, et PWD

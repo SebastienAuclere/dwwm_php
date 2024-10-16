@@ -25,8 +25,7 @@ if (isset($_POST["send"])) {
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>resto</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./mon_css/styleform.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='./mon_css/styleform.css'>   
 </head>
 
 <body>
