@@ -8,10 +8,9 @@ $data = $myCrud->chercherResteau($_GET["id"]);
 $myObject2 = new RestoRepository("restaurants");
 
 if (isset($_POST["send"])) {
-    $test = $myObject2->updateRestau(1, $_POST["name"], $_POST["address"], floatval($_POST["price"]), $_POST["comments"], intval($_POST["note"]), $_POST["visit"]);
+    $test = $myObject2->deleteRestau(1);
     if ($test === true) {
-        echo "modification OK";
-        // header("Location:./index.php");  // "header" est une fonction qui redirige vers une page
+        echo "modification OK";        
     } else {
         echo "Modification du restaurant a echoue veuillez recommencer";
     }

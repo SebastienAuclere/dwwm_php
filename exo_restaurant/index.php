@@ -21,11 +21,11 @@
         <?php
         $data = $mylist->searchAll();                                                  // Récupération des données : Cette ligne appelle la méthode searchAll de l’objet $mylist (instance de RestoRepository) 
         // pour récupérer toutes les lignes de la table restaurants. Les données sont stockées dans le tableau $data. 
-        echo "<table><thead><tr><th>id</th><th>nom</th><th>adresse</th><th>prix</th>   
+        echo "<table><thead><tr><th>Modifier</th><th>Supprimer</th><th>id</th><th>nom</th><th>adresse</th><th>prix</th>   
                         <th>commentaire</th><th>note</th><th>visite></th></tr></thead><tbody>"; // Affichage du tableau HTML : Cette ligne commence la construction d’un tableau HTML avec une ligne d’en-tête contenant les noms des colonnes.
 
         for ($i = 0; $i < count($data); $i++) {                                        // Boucle pour afficher les données : La boucle for parcourt chaque élément du tableau $data
-            echo "<tr>";                                                               // Pour chaque ligne de données, une nouvelle ligne de tableau (<tr>) est créée.
+            echo "<tr><td><a href='modifier.php?id=".$data[$i]["id"]."' target='_blank'>modifier</a></td><td><input type='button' value='supprimer' name='suppr' id='suppression'></td> ";                                                               // Pour chaque ligne de données, une nouvelle ligne de tableau (<tr>) est créée.
             foreach ($data[$i] as $key => $value) {                                    // La boucle foreach parcourt chaque colonne de la ligne actuelle et affiche la valeur dans une cellule de tableau (<td>).
                 echo "<td>" . $value . "</td>";                                        // 
             }                                                                          //

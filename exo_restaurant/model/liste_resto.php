@@ -62,7 +62,7 @@ class RestoRepository
             . $_prix . ",'" . $_Commentaire . "'," . $_Note . ",'" . $_visite . "')";                 // Notez que id est supposé être une colonne auto-incrémentée ou gérée par la base de données.
         //echo $rq;                                                                                   // La requête SQL est affichée.
         $numberLigne = $this->connect->exec($rq);                                                     // La requête est exécutée et le nombre de lignes affectées est stocké dans $numberLigne.
-        if ($numberLigne == 1) {                                                                      // Si une ligne a été insérée ($numberLigne == 1), la fonction retourne true.
+        if ($numberLigne === 1) {                                                                      // Si une ligne a été insérée ($numberLigne == 1), la fonction retourne true.
             return true;                                                                              // 
         }                                                                                             //
         return false;                                                                                 // Sinon, elle retourne false.
@@ -73,6 +73,19 @@ class RestoRepository
     {
         $rq = "update " . $this->nomTable . " set  nom='" . $_nom . "', adresse='" . $_adresse . "', prix=" . $_prix .
             ", commentaire='" . $_Commentaire . "', note=" . $_Note . ", visite='" . $_visite . "'  where id=" . $_id;
+
+        $nbLigne = $this->connect->exec($rq);
+
+        if ($nbLigne === 1) {
+            return true;
+        }
+        return false;
+    }
+
+    // En résumé, cette fonction supprime un nouveau restaurant dans la table et retourne true si la modification a réussi, ou false sinon.
+    public function deleteRestau(int $id): bool
+    {
+        $rq = "delete from " . $this->nomTable . "where id=" . $id;
 
         $nbLigne = $this->connect->exec($rq);
 
