@@ -10,8 +10,9 @@ class RestoRepository
 
     //constructeur
 
-    public function __construct(string $_nomTable, array $_tabChamp = []) {  // Un constructeur public qui initialise les attributs de la classe
-        
+    public function __construct(string $_nomTable, array $_tabChamp = [])
+    {  // Un constructeur public qui initialise les attributs de la classe
+
         $this->connect = Dbconnect::getInstance();  //  La connexion à la base de données est établie en utilisant la méthode getInstance de la classe Dbconnect
         $this->nomTable = $_nomTable;               //  Le nom de la table est passé en paramètre et assigné à l’attribut $nomTable
         $this->tabChamp = $_tabChamp;               //  Un tableau de champs est passé en paramètre et assigné à l’attribut $tabChamp. Ce paramètre est optionnel et par défaut, c’est un tableau vide.
@@ -58,12 +59,26 @@ class RestoRepository
     public function ajouterResteau(string $_nom, string $_adresse, float $_prix, string $_Commentaire, int $_Note, string $_visite): bool  // Cette fonction prend plusieurs paramètres relatifs à un restaurant et insère une nouvelle ligne dans la table correspondante
     {                                                                                                                                      //La fonction est publique et retourne un booléen (true ou false)  
         $rq = "insert into " . $this->nomTable . " values (id, '" . $_nom . "','" . $_adresse . "',"  // La requête SQL insère une nouvelle ligne dans la table spécifiée par $this->nomTable. Les valeurs des colonnes sont fournies par les paramètres de la fonction. 
-              . $_prix . ",'" . $_Commentaire . "'," . $_Note . ",'" . $_visite . "')";               // Notez que id est supposé être une colonne auto-incrémentée ou gérée par la base de données.
-        echo $rq;                                                                                     // La requête SQL est affichée.
+            . $_prix . ",'" . $_Commentaire . "'," . $_Note . ",'" . $_visite . "')";                 // Notez que id est supposé être une colonne auto-incrémentée ou gérée par la base de données.
+        //echo $rq;                                                                                   // La requête SQL est affichée.
         $numberLigne = $this->connect->exec($rq);                                                     // La requête est exécutée et le nombre de lignes affectées est stocké dans $numberLigne.
         if ($numberLigne == 1) {                                                                      // Si une ligne a été insérée ($numberLigne == 1), la fonction retourne true.
             return true;                                                                              // 
         }                                                                                             //
         return false;                                                                                 // Sinon, elle retourne false.
-    }                                                                                                 // En résumé, cette fonction ajoute un nouveau restaurant dans la table et retourne true si l’insertion a réussi, ou false sinon.
+    }
+
+    // En résumé, cette fonction ajoute un nouveau restaurant dans la table et retourne true si la modification a réussi, ou false sinon.
+    public function updateRestau(int $_id, string $_nom, string $_adresse, float $_prix, string $_Commentaire, int $_Note, string $_visite): bool
+    {
+        $rq = "update " . $this->nomTable . " set  nom='" . $_nom . "', adresse='" . $_adresse . "', prix=" . $_prix .
+            ", commentaire='" . $_Commentaire . "', note=" . $_Note . ", visite='" . $_visite . "'  where id=" . $_id;
+
+        $nbLigne = $this->connect->exec($rq);
+
+        if ($nbLigne === 1) {
+            return true;
+        }
+        return false;
+    }
 }

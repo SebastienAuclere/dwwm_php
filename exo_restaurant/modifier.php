@@ -2,12 +2,20 @@
 require "./model/dbconnect.php";
 require "./model/liste_resto.php";
 
-
-
 $myCrud = new RestoRepository("restaurants");
-$data = $myCrud->chercherResteau($_GET["id"]);
+//$data = $myCrud->chercherResteau($_GET["id"]);
 
+$myObject2 = new RestoRepository("restaurants");
 
+if (isset($_POST["send"])) {
+    $test = $myObject2->updateRestau(1, $_POST["name"], $_POST["address"], floatval($_POST["price"]), $_POST["comments"], intval($_POST["note"]), $_POST["visit"]);
+    if ($test === true) {
+        echo "modification OK";
+        // header("Location:./index.php");  // "header" est une fonction qui redirige vers une page
+    } else {
+        echo "Modification du restaurant a echoue veuillez recommencer";
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr-fr">
@@ -17,16 +25,16 @@ $data = $myCrud->chercherResteau($_GET["id"]);
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>resto</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styleform.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./mon_css/styleform.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
     <div>
-        <form action="" method="get" class="background">
+        <form action="" method="POST" class="background">
             <div>
                 <label for="name">name:</label>
-                <input type="text" id="name" name="name" class="center1" value="<?= $data["nom"] ?>">
+                <input type="text" id="name" name="name" class="center1" value="">
             </div>
             <div>
                 <label for="address">address:</label>
@@ -45,10 +53,10 @@ $data = $myCrud->chercherResteau($_GET["id"]);
             </div>
             <div>
                 <label for="visit">Enter a date before 1980-01-01:</label>
-                <input type="date" id="visit" name="visit" max="1979-12-31" class="center6">
+                <input type="date" id="visit" name="visit" max="2024-12-31" class="center6">
             </div>
             <div>
-                <input type="submit" value="Submit" class="center7">
+                <input type="submit" value="Submit" name="send" class="center7">
             </div>
         </form>
     </div>
