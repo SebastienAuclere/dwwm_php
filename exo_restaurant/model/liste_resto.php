@@ -75,7 +75,6 @@ class RestoRepository
             ", commentaire='" . $_Commentaire . "', note=" . $_Note . ", visite='" . $_visite . "'  where id=" . $_id;
 
         $nbLigne = $this->connect->exec($rq);
-
         if ($nbLigne === 1) {
             return true;
         }
@@ -88,7 +87,6 @@ class RestoRepository
         $rq = "delete from " . $this->nomTable . " where id=" . $_id;
 
         $nbLigne = $this->connect->exec($rq);
-
         if ($nbLigne === 1) {
             return true;
         }
