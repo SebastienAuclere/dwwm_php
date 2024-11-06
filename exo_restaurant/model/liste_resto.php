@@ -83,9 +83,9 @@ class RestoRepository
     }
 
     // En résumé, cette fonction supprime un nouveau restaurant dans la table et retourne true si la modification a réussi, ou false sinon.
-    public function deleteRestau(int $id): bool
+    public function deleteRestau(int $_id): bool
     {
-        $rq = "delete from " . $this->nomTable . "where id=" . $id;
+        $rq = "delete from " . $this->nomTable . " where id=" . $_id;
 
         $nbLigne = $this->connect->exec($rq);
 

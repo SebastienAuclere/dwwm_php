@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="fr-fr">
 
 <head>
@@ -25,7 +25,7 @@
                         <th>commentaire</th><th>note</th><th>visite></th></tr></thead><tbody>"; // Affichage du tableau HTML : Cette ligne commence la construction d’un tableau HTML avec une ligne d’en-tête contenant les noms des colonnes.
 
         for ($i = 0; $i < count($data); $i++) {                                        // Boucle pour afficher les données : La boucle for parcourt chaque élément du tableau $data
-            echo "<tr><td><a href='modifier.php?id=".$data[$i]["id"]."' target='_blank'>modifier</a></td><td><input type='button' value='supprimer' name='suppr' id='suppression'></td> ";                                                               // Pour chaque ligne de données, une nouvelle ligne de tableau (<tr>) est créée.
+            echo "<tr><td><a href='modifier.php?id=".$data[$i]["id"]. "' target='_blank'>modifier</a></td><td><form action='supprimer.php' method='GET'><input type='hidden' name='id' value='" . $data[$i]['id'] . "'><input type='submit' value='supprimer' name='suppr' id='suppression'></form></td> ";                                                               // Pour chaque ligne de données, une nouvelle ligne de tableau (<tr>) est créée.
             foreach ($data[$i] as $key => $value) {                                    // La boucle foreach parcourt chaque colonne de la ligne actuelle et affiche la valeur dans une cellule de tableau (<td>).
                 echo "<td>" . $value . "</td>";                                        // 
             }                                                                          //
