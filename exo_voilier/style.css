@@ -1,0 +1,18 @@
+h1 {
+    font-weight: lighter;
+}
+
+.bagrcolor {
+    border-color: #996633;
+}
+
+.stylbut {
+    background-color: #996633;
+    color: white;
+}
+
+hr {
+    color: (243, 242, 242, 0.5);
+    float: left;
+    width: 32%;
+}
