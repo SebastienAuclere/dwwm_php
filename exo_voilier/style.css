@@ -1,18 +1,57 @@
-h1 {
+body{
+    font-family: sans-serif;
+}
+
+div{    
+    width: 23%;    
+}
+
+h2 {        
     font-weight: lighter;
+    text-align: center;
 }
 
 .bagrcolor {
-    border-color: #996633;
+    border-color: #a38f7a;
+}
+
+.top{
+    margin-top: 10%;
 }
 
 .stylbut {
     background-color: #996633;
     color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: right;
+    width: 35%;
 }
 
 hr {
-    color: (243, 242, 242, 0.5);
-    float: left;
-    width: 32%;
+    color: rgb(253, 253, 253, 1);    
+    width: 100%;
+    margin-left: 0%;
+}
+
+form {
+    color: rgb(102, 102, 102);
+}
+
+label{
+    font-weight: bold;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    display: block;
+}
+
+.bottom{
+    margin-bottom: 5%;
+}
+
+input{
+    width: 88%;
+    padding: 5%;
+    border-radius: 5%;
 }
