@@ -1,5 +1,19 @@
 <?php
+session_start();
 
+require "./model/dbconnect.php";
+require "./model/utilisateur.php";
+
+$myUser = new Utilisateur();
+
+if (isset($_POST['send'])) {
+    $testConnect = $myUser->signIn($_POST['email'], $_POST['pwd']);
+    if ($testConnect === true) {
+        header("Location:./liste.php");
+    } else {
+        echo "votre mot de passe ou votre nom d'utilisateur est erroné !";
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -10,18 +24,7 @@
     <title>index.php</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-    <?php
 
-    require "./model/dbconnect.php";
-    require "./model/utilisateur.php";
-
-    $myUser = new Utilisateur(); 
-
-    if(isset($_POST['send']))
-    {
-        $myUser->signIn($_POST['email'], $_POST['pwd']);        
-    }
-    ?>
 <body>
     <a href="liste.php">cliquer ici</a>
     <div>

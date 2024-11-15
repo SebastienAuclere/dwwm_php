@@ -26,7 +26,10 @@ class Utilisateur
             $testMdp = password_verify($password, $table['pass_user']);
             if ($testMdp === true) {
                 //echo "ligne trouve";
-                echo "Bonjour Me ou M " . $table['lastname_user'] . " vous êtes bien connecté.";
+                //echo "Bonjour Me ou M " . $table['lastname_user'] . " vous êtes bien connecté.";
+                $_SESSION["nom_user"] = $table["lastname_user"];
+                $_SESSION["prenom_user"] = $table["firstname_user"];
+                $_SESSION["niveau_user"] = $table["level"];
                 return true;
             } else {
                 echo "Erreur sur le mot de Passe";
