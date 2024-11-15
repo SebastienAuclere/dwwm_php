@@ -5,7 +5,7 @@ class Utilisateur
     private PDO $connect;
 
     public function __construct()
-    {  
+    {
         $this->connect = Dbconnect::getInstance();
     }
 
