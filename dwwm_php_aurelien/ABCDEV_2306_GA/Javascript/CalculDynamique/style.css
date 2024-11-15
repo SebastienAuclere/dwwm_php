@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.boite {
+    width: 48%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.pad {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.pad2 {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.pad3 {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}

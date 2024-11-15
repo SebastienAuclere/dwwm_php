@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\AppCompte\AppCompte\bin\Debug\net6.0\AppCompte.exe
+C:\Users\agibier\source\repos\AppCompte\AppCompte\bin\Debug\net6.0\AppCompte.deps.json
+C:\Users\agibier\source\repos\AppCompte\AppCompte\bin\Debug\net6.0\AppCompte.runtimeconfig.json
+C:\Users\agibier\source\repos\AppCompte\AppCompte\bin\Debug\net6.0\AppCompte.dll
+C:\Users\agibier\source\repos\AppCompte\AppCompte\bin\Debug\net6.0\AppCompte.pdb
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\AppCompte.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\AppCompte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\AppCompte.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\AppCompte.AssemblyInfo.cs
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\AppCompte.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\AppCompte.dll
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\refint\AppCompte.dll
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\AppCompte.pdb
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\AppCompte.genruntimeconfig.cache
+C:\Users\agibier\source\repos\AppCompte\AppCompte\obj\Debug\net6.0\ref\AppCompte.dll

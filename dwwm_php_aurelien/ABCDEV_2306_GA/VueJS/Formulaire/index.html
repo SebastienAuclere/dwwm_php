@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script.js" type="module"></script>
+</head>
+<body id="monApp">
+    <h1>{{ message }}</h1>
+    <label for="prenom">Prénom: <input v-model="prenom"></label>
+    <label for="age">Âge: <input v-model="compteur"></label>
+    <button @click="valider">Valider</button>
+    <button @click="vider">Vider</button>
+    <hr />
+    <ul>
+        <li v-for="adresse of adresses">{{ adresse }}</li>
+    </ul>
+    <ul>
+        <li v-for="element of liste">{{ element.legume }}</li>
+    </ul>
+    <p>{{ bonjour }}</p>
+    <p>{{ phrase }}</p>
+    <p>{{ retraite }}</p>
+</body>
+</html>

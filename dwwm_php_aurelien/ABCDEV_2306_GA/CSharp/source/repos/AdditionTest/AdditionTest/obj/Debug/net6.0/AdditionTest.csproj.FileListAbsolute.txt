@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.exe
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.deps.json
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.runtimeconfig.json
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.dll
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.pdb
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.AssemblyInfo.cs
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.dll
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\refint\AdditionTest.dll
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.pdb
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.genruntimeconfig.cache
+C:\Users\agibier\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\ref\AdditionTest.dll

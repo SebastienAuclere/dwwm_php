@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\Comparaison\bin\Debug\net6.0\Comparaison.exe
+C:\Users\agibier\source\repos\Comparaison\bin\Debug\net6.0\Comparaison.deps.json
+C:\Users\agibier\source\repos\Comparaison\bin\Debug\net6.0\Comparaison.runtimeconfig.json
+C:\Users\agibier\source\repos\Comparaison\bin\Debug\net6.0\Comparaison.dll
+C:\Users\agibier\source\repos\Comparaison\bin\Debug\net6.0\Comparaison.pdb
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\Comparaison.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\Comparaison.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\Comparaison.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\Comparaison.AssemblyInfo.cs
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\Comparaison.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\Comparaison.dll
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\refint\Comparaison.dll
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\Comparaison.pdb
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\Comparaison.genruntimeconfig.cache
+C:\Users\agibier\source\repos\Comparaison\obj\Debug\net6.0\ref\Comparaison.dll

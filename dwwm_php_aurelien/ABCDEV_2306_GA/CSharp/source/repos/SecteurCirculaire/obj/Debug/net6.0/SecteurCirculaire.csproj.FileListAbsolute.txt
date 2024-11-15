@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\SecteurCirculaire\bin\Debug\net6.0\SecteurCirculaire.exe
+C:\Users\agibier\source\repos\SecteurCirculaire\bin\Debug\net6.0\SecteurCirculaire.deps.json
+C:\Users\agibier\source\repos\SecteurCirculaire\bin\Debug\net6.0\SecteurCirculaire.runtimeconfig.json
+C:\Users\agibier\source\repos\SecteurCirculaire\bin\Debug\net6.0\SecteurCirculaire.dll
+C:\Users\agibier\source\repos\SecteurCirculaire\bin\Debug\net6.0\SecteurCirculaire.pdb
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\SecteurCirculaire.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\SecteurCirculaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\SecteurCirculaire.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\SecteurCirculaire.AssemblyInfo.cs
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\SecteurCirculaire.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\SecteurCirculaire.dll
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\refint\SecteurCirculaire.dll
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\SecteurCirculaire.pdb
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\SecteurCirculaire.genruntimeconfig.cache
+C:\Users\agibier\source\repos\SecteurCirculaire\obj\Debug\net6.0\ref\SecteurCirculaire.dll

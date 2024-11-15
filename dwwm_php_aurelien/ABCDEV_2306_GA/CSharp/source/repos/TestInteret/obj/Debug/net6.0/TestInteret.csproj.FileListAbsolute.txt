@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\TestInteret\bin\Debug\net6.0\TestInteret.exe
+C:\Users\agibier\source\repos\TestInteret\bin\Debug\net6.0\TestInteret.deps.json
+C:\Users\agibier\source\repos\TestInteret\bin\Debug\net6.0\TestInteret.runtimeconfig.json
+C:\Users\agibier\source\repos\TestInteret\bin\Debug\net6.0\TestInteret.dll
+C:\Users\agibier\source\repos\TestInteret\bin\Debug\net6.0\TestInteret.pdb
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\TestInteret.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\TestInteret.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\TestInteret.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\TestInteret.AssemblyInfo.cs
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\TestInteret.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\TestInteret.dll
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\refint\TestInteret.dll
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\TestInteret.pdb
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\TestInteret.genruntimeconfig.cache
+C:\Users\agibier\source\repos\TestInteret\obj\Debug\net6.0\ref\TestInteret.dll

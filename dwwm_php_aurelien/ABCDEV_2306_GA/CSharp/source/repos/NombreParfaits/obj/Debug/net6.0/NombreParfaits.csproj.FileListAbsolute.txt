@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\NombreParfaits\bin\Debug\net6.0\NombreParfaits.exe
+C:\Users\agibier\source\repos\NombreParfaits\bin\Debug\net6.0\NombreParfaits.deps.json
+C:\Users\agibier\source\repos\NombreParfaits\bin\Debug\net6.0\NombreParfaits.runtimeconfig.json
+C:\Users\agibier\source\repos\NombreParfaits\bin\Debug\net6.0\NombreParfaits.dll
+C:\Users\agibier\source\repos\NombreParfaits\bin\Debug\net6.0\NombreParfaits.pdb
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\NombreParfaits.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\NombreParfaits.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\NombreParfaits.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\NombreParfaits.AssemblyInfo.cs
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\NombreParfaits.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\NombreParfaits.dll
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\refint\NombreParfaits.dll
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\NombreParfaits.pdb
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\NombreParfaits.genruntimeconfig.cache
+C:\Users\agibier\source\repos\NombreParfaits\obj\Debug\net6.0\ref\NombreParfaits.dll

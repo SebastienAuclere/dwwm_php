@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\Tri\bin\Debug\net6.0\Tri.exe
+C:\Users\agibier\source\repos\Tri\bin\Debug\net6.0\Tri.deps.json
+C:\Users\agibier\source\repos\Tri\bin\Debug\net6.0\Tri.runtimeconfig.json
+C:\Users\agibier\source\repos\Tri\bin\Debug\net6.0\Tri.dll
+C:\Users\agibier\source\repos\Tri\bin\Debug\net6.0\Tri.pdb
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\Tri.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\Tri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\Tri.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\Tri.AssemblyInfo.cs
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\Tri.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\Tri.dll
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\refint\Tri.dll
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\Tri.pdb
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\Tri.genruntimeconfig.cache
+C:\Users\agibier\source\repos\Tri\obj\Debug\net6.0\ref\Tri.dll

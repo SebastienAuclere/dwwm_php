@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script.js" type="module"></script>
+</head>
+
+<body id="monApp">
+    <table id="firstTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Level</th>
+                <th>Power</th>
+                <th>Attack</th>
+                <th>Armor</th>
+                <th>Damage</th>
+                <th>Mitigation</th>
+                <th>Played</th>
+                <th>Victory</th>
+                <th>Defeat</th>
+                <th>Draw</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="row in cards">
+                <td>{{row.id}}</td>
+                <td>{{row.name}}</td>
+                <td>{{row.level}}</td>
+                <td>{{row.power}}</td>
+                <td>{{row.attack}}</td>
+                <td>{{row.armor}}</td>
+                <td>{{row.damage}}</td>
+                <td>{{row.mitigation}}</td>
+                <td>{{row.played}}</td>
+                <td>{{row.victory}}</td>
+                <td>{{row.defeat}}</td>
+                <td>{{row.draw}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <p v-if="cards.length > 0">{{ plusJouer.name }} {{ plusJouer.played }} {{plusJouer.power}}</p>
+    <p v-if="cards.length > 0">{{ ratio.name }} {{ ratio.played }} {{ratio.victory}}</p>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecteurCirculaire", "SecteurCirculaire.csproj", "{F177789D-5BE8-4735-BBF1-57092F8680F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F177789D-5BE8-4735-BBF1-57092F8680F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F177789D-5BE8-4735-BBF1-57092F8680F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F177789D-5BE8-4735-BBF1-57092F8680F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F177789D-5BE8-4735-BBF1-57092F8680F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDF04723-4383-4816-97F0-556A5372C1C6}
+	EndGlobalSection
+EndGlobal

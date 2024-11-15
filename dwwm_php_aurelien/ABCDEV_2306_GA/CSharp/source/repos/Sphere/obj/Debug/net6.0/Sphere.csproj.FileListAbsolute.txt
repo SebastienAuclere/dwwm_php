@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\Sphere\bin\Debug\net6.0\Sphere.exe
+C:\Users\agibier\source\repos\Sphere\bin\Debug\net6.0\Sphere.deps.json
+C:\Users\agibier\source\repos\Sphere\bin\Debug\net6.0\Sphere.runtimeconfig.json
+C:\Users\agibier\source\repos\Sphere\bin\Debug\net6.0\Sphere.dll
+C:\Users\agibier\source\repos\Sphere\bin\Debug\net6.0\Sphere.pdb
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\Sphere.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\Sphere.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\Sphere.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\Sphere.AssemblyInfo.cs
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\Sphere.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\Sphere.dll
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\refint\Sphere.dll
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\Sphere.pdb
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\Sphere.genruntimeconfig.cache
+C:\Users\agibier\source\repos\Sphere\obj\Debug\net6.0\ref\Sphere.dll

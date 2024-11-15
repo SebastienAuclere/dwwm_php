@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script.js" type="module"></script>
+</head>
+<body id="monApp">
+    <h1>{{ titre }}</h1>
+    <label>Saisie manuelle : <input id="saisie" v-model="saisie"></label>
+    <button @click="rechercher">Rechercher</button>
+    <div id="rendu">
+        <ul>
+            <li v-for="ville of resultat">{{ ville.codePostal }} {{ ville.nomCommune }}</li>
+        </ul>
+    </div>
+</body>
+</html>

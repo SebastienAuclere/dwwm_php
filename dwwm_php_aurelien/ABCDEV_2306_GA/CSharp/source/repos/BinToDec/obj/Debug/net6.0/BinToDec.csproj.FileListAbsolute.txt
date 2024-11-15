@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\BinToDec\bin\Debug\net6.0\BinToDec.exe
+C:\Users\agibier\source\repos\BinToDec\bin\Debug\net6.0\BinToDec.deps.json
+C:\Users\agibier\source\repos\BinToDec\bin\Debug\net6.0\BinToDec.runtimeconfig.json
+C:\Users\agibier\source\repos\BinToDec\bin\Debug\net6.0\BinToDec.dll
+C:\Users\agibier\source\repos\BinToDec\bin\Debug\net6.0\BinToDec.pdb
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\BinToDec.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\BinToDec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\BinToDec.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\BinToDec.AssemblyInfo.cs
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\BinToDec.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\BinToDec.dll
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\refint\BinToDec.dll
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\BinToDec.pdb
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\BinToDec.genruntimeconfig.cache
+C:\Users\agibier\source\repos\BinToDec\obj\Debug\net6.0\ref\BinToDec.dll

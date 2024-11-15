@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\CalculInteret\bin\Debug\net6.0\CalculInteret.exe
+C:\Users\agibier\source\repos\CalculInteret\bin\Debug\net6.0\CalculInteret.deps.json
+C:\Users\agibier\source\repos\CalculInteret\bin\Debug\net6.0\CalculInteret.runtimeconfig.json
+C:\Users\agibier\source\repos\CalculInteret\bin\Debug\net6.0\CalculInteret.dll
+C:\Users\agibier\source\repos\CalculInteret\bin\Debug\net6.0\CalculInteret.pdb
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\CalculInteret.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\CalculInteret.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\CalculInteret.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\CalculInteret.AssemblyInfo.cs
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\CalculInteret.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\CalculInteret.dll
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\refint\CalculInteret.dll
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\CalculInteret.pdb
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\CalculInteret.genruntimeconfig.cache
+C:\Users\agibier\source\repos\CalculInteret\obj\Debug\net6.0\ref\CalculInteret.dll

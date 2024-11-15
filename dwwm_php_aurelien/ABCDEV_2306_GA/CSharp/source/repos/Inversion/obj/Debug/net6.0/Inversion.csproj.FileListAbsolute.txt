@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\Inversion\bin\Debug\net6.0\Inversion.exe
+C:\Users\agibier\source\repos\Inversion\bin\Debug\net6.0\Inversion.deps.json
+C:\Users\agibier\source\repos\Inversion\bin\Debug\net6.0\Inversion.runtimeconfig.json
+C:\Users\agibier\source\repos\Inversion\bin\Debug\net6.0\Inversion.dll
+C:\Users\agibier\source\repos\Inversion\bin\Debug\net6.0\Inversion.pdb
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\Inversion.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\Inversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\Inversion.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\Inversion.AssemblyInfo.cs
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\Inversion.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\Inversion.dll
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\refint\Inversion.dll
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\Inversion.pdb
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\Inversion.genruntimeconfig.cache
+C:\Users\agibier\source\repos\Inversion\obj\Debug\net6.0\ref\Inversion.dll

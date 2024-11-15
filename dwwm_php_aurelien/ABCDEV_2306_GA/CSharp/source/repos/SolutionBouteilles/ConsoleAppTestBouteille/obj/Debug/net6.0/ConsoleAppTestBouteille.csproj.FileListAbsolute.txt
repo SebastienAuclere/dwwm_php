@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\bin\Debug\net6.0\ConsoleAppTestBouteille.exe
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\bin\Debug\net6.0\ConsoleAppTestBouteille.deps.json
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\bin\Debug\net6.0\ConsoleAppTestBouteille.runtimeconfig.json
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\bin\Debug\net6.0\ConsoleAppTestBouteille.dll
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\bin\Debug\net6.0\ConsoleAppTestBouteille.pdb
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\ConsoleAppTestBouteille.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\ConsoleAppTestBouteille.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\ConsoleAppTestBouteille.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\ConsoleAppTestBouteille.AssemblyInfo.cs
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\ConsoleAppTestBouteille.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\ConsoleAppTestBouteille.dll
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\refint\ConsoleAppTestBouteille.dll
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\ConsoleAppTestBouteille.pdb
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\ConsoleAppTestBouteille.genruntimeconfig.cache
+C:\Users\agibier\source\repos\SolutionBouteilles\ConsoleAppTestBouteille\obj\Debug\net6.0\ref\ConsoleAppTestBouteille.dll

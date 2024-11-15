@@ -1,0 +1,5 @@
+C:\Users\agibier\source\repos\BarnabeCourse\obj\Debug\net6.0\BarnabeCourse.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\BarnabeCourse\obj\Debug\net6.0\BarnabeCourse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\BarnabeCourse\obj\Debug\net6.0\BarnabeCourse.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\BarnabeCourse\obj\Debug\net6.0\BarnabeCourse.AssemblyInfo.cs
+C:\Users\agibier\source\repos\BarnabeCourse\obj\Debug\net6.0\BarnabeCourse.csproj.CoreCompileInputs.cache

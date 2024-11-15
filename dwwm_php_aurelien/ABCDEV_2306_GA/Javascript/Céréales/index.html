@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" type="module"></script>
+</head>
+
+<body>
+    <h1>Cereals</h1>
+    <div class="recherche">
+        <fieldset>
+            <legend>Rechercher:</legend>
+            <div>
+                <label for="site-search"></label>
+                <input type="search" id="site-search" name="q" />
+            </div>
+        </fieldset>
+    </div>
+    <div class="filtre">
+        <fieldset>
+            <legend>Filter:</legend>
+            <fieldset>
+                <legend>Nutriscore:</legend>
+                <div>
+                    <input type="checkbox" id="A" name="A" unchecked />
+                    <label for="A" id="I0">A</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="B" name="B" unchecked />
+                    <label for="B" id="I1">B</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="C" name="C" unchecked />
+                    <label for="C" id="I2">C</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="D" name="D" unchecked />
+                    <label for="D" id="I3">D</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="E" name="E" unchecked />
+                    <label for="E" id="I4">E</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Catégorie:</legend>
+                <select>
+                    <option>Tous</option>
+                    <option>Sans Sucre</option>
+                    <option>Pauvre en Sel</option>
+                    <option>Boost</option>
+                </select>
+            </fieldset>
+        </fieldset>
+    </div>
+    <table>
+        <thead>
+            <tr id="nomData">
+                <th>ID</th>
+                <th>NOM</th>
+                <th>CALORIES</th>
+                <th>PROTEÏNES</th>
+                <th>SEL</th>
+                <th>FIBRES</th>
+                <th>GLUCIDES</th>
+                <th>SUCRE</th>
+                <th>POTASSIUM</th>
+                <th>VITAMINES</th>
+                <th>EVALUATION</th>
+                <th>NS</th>
+                <th>DEL</th>
+            </tr>
+        </thead>
+        <tbody id="Table">
+        </tbody>
+    </table>
+</body>
+
+</html>

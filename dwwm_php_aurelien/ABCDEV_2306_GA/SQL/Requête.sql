@@ -1,0 +1,138 @@
+CREATE DATABASE employes;
+USE employes;
+CREATE TABLE EMP (
+ 	EMPNO INTEGER AUTO_INCREMENT,
+ 	ENAME VARCHAR(20) NOT NULL,
+ 	JOB VARCHAR(20) NOT NULL,
+ 	MGR INTEGER,
+ 	HIREDATE DATE NOT NULL,
+ 	SAL DECIMAL(8,2) NOT NULL,
+ 	COMM DECIMAL(8,2),
+ 	DEPTNO INTEGER NOT NULL,
+ 	PRIMARY KEY(EMPNO)
+ );
+ 
+ INSERT INTO EMP(EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO)
+ VALUES
+ 	(7369, 'SMITH', 'CLERK', 7902, '1980-12-17',  800, NULL, 20),
+ 	(7499, 'ALLEN', 'SALESMAN', 7698, '1981-02-20',  1600, 300, 30),
+ 	(7521, 'WARD', 'SALESMAN', 7698, '1981-02-21', 1250, 500, 30),
+ 	(7566, 'JONES', 'MANAGER', 7839, '1981-04-02', 2975, NULL, 20),
+ 	(7654, 'MARTIN', 'SALESMAN', 7698, '1981-09-28', 1250, 1400, 30),
+ 	(7698, 'BLAKE', 'MANAGER', 7839, '1981-05-01', 2850, NULL, 30),
+ 	(7782, 'CLARK', 'MANAGER', 7839, '1981-07-09', 2450, NULL, 10),
+ 	(7788, 'SCOTT', 'ANALYST', 7566, '1982-12-09', 3000, NULL, 20),
+ 	(7839, 'KING', 'PRESIDENT', NULL, '1981-11-17', 5000, NULL, 10),
+ 	(7844, 'TURNER', 'SALESMAN', 7698, '1981-09-08', 1500, 0, 30),
+ 	(7876, 'ADAMS', 'CLERK', 7788, '1983-01-12', 1100, NULL, 20),
+ 	(7900, 'JAMES', 'CLERK', 7698, '1981-12-03', 950, NULL, 30),
+ 	(7902, 'FORD', 'ANALYST', 7566, '1981-12-03', 3000, NULL, 20),
+ 	(7934, 'MILLER', 'CLERK', 7782, '1982-01-23', 1300, NULL, 10);
+ 
+ CREATE TABLE DEPT (
+ 	DEPTNO INTEGER NOT NULL,
+ 	DNAME VARCHAR(15) NOT NULL,
+ 	LOC VARCHAR(15) NOT NULL,
+ 	PRIMARY KEY(DEPTNO)
+ )
+
+ INSERT INTO dept(DEPTNO, DNAME, LOC)
+ VALUES
+ 	(10, 'ACCOUNTING', 'NEW YORK'),
+ 	(20, 'RESEARCH', 'DALLAS'),
+ 	(30, 'SALES', 'CHICAGO'),
+ 	(40, 'OPERATIONS', 'BOSTON');
+ 	
+ALTER TABLE emp
+ADD CONSTRAINT FK_DEPTNO
+FOREIGN KEY(DEPTNO) REFERENCES DEPT(DEPTNO);
+
+ALTER TABLE emp
+ADD CONSTRAINT FK_MGR
+FOREIGN KEY(MGR) REFERENCES emp(EMPNO);
+
+[09:55] GRANDGIRARD Tristan
+
+/*
+SELECT ename, job, sal FROM emp WHERE deptno = 10;
+*/
+ 
+/*
+SELECT ename, job, sal FROM emp WHERE sal > 2800 AND job = 'MANAGER';
+*/
+ 
+/*
+SELECT ename, job, sal FROM emp WHERE deptno != 30 AND job = 'MANAGER';
+*/
+ 
+/*
+SELECT * FROM emp WHERE sal BETWEEN 1200 AND 1400;
+*/
+ 
+
+/*
+SELECT * FROM emp WHERE deptno IN(10, 30, 40) ORDER BY ename;
+*/
+ 
+/*
+SELECT * FROM emp WHERE deptno = 30 ORDER BY sal;
+*/
+ 
+/*
+SELECT * FROM emp ORDER BY job, sal DESC;
+*/
+ 
+/*
+SELECT DISTINCT job FROM emp;
+*/
+ 
+
+/*
+SELECT dname FROM dept
+INNER JOIN emp ON emp.DEPTNO = dept.DEPTNO
+WHERE emp.ename = 'ALLEN';
+*/
+ 
+
+
+/*
+SELECT dept.dname, emp.ENAME, emp.JOB, emp.SAL FROM emp
+INNER JOIN dept ON emp.DEPTNO = dept.DEPTNO
+ORDER BY dept.DNAME, emp.SAL DESC;
+*/
+ 
+/*
+SELECT ename, sal, comm, sal + comm AS total FROM emp WHERE (job = 'SALESMAN');
+*/
+ 
+/*
+SET lc_time_names = 'fr_FR';
+*/
+
+/*
+SELECT ename, job, UPPER(DATE_FORMAT(hiredate, '%a %e %b %Y')) AS 'Date d\'embauche' FROM emp;
+*/
+ 
+/*
+SELECT deptno, MAX(sal) FROM emp GROUP BY deptno;
+*/
+ 
+/*
+SELECT
+	deptno AS 'Numéro Dept',
+	SUM(sal+COALESCE(comm, 0)) AS 'Masse Salariale',
+	COUNT(empno) AS 'Nombre D\'employés',
+	ROUND(AVG(sal), 2) AS 'Salaire Moyen'
+FROM emp
+GROUP BY deptno
+*/
+ 
+
+SELECT
+	job AS 'nombre_employes',
+	SUM(sal+COALESCE(comm, 0)) AS 'Masse Salariale',
+	COUNT(empno) AS 'Nombre D\'employés',
+	ROUND(AVG(sal), 2) AS 'Salaire Moyen'
+FROM emp
+GROUP BY job
+HAVING (COUNT(*) >= 2);

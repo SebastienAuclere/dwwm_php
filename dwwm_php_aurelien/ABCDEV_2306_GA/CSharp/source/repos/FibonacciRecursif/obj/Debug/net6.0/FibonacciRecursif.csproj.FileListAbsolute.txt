@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\FibonacciRecursif\bin\Debug\net6.0\FibonacciRecursif.exe
+C:\Users\agibier\source\repos\FibonacciRecursif\bin\Debug\net6.0\FibonacciRecursif.deps.json
+C:\Users\agibier\source\repos\FibonacciRecursif\bin\Debug\net6.0\FibonacciRecursif.runtimeconfig.json
+C:\Users\agibier\source\repos\FibonacciRecursif\bin\Debug\net6.0\FibonacciRecursif.dll
+C:\Users\agibier\source\repos\FibonacciRecursif\bin\Debug\net6.0\FibonacciRecursif.pdb
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\FibonacciRecursif.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\FibonacciRecursif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\FibonacciRecursif.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\FibonacciRecursif.AssemblyInfo.cs
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\FibonacciRecursif.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\FibonacciRecursif.dll
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\refint\FibonacciRecursif.dll
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\FibonacciRecursif.pdb
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\FibonacciRecursif.genruntimeconfig.cache
+C:\Users\agibier\source\repos\FibonacciRecursif\obj\Debug\net6.0\ref\FibonacciRecursif.dll

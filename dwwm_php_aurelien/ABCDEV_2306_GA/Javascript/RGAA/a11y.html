@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Bonnes pratiques d'accessibilité</title>
+</head>
+
+<body>
+    <header>
+        <div class="gauche">
+            <p class="contenu">Aller au contenu</p>
+            <img class="ally" src="a11yNow.png" alt="personne" />
+        </div>
+        <nav>
+            <ul>
+                <li>Accueil</li>
+                <li>A11y</li>
+                <li>Handicaps</li>
+                <li>Faites un don</li>
+                <li>Equipe</li>
+                <li>Plan du site</li>
+            </ul>
+            <button id="parametres">Paramètres Accessibilité</button>
+            <label class="bouton" for="site-search">Recherche</label>
+            <input type="search" id="site-search" name="q" placeholder="Rechercher" />
+            <button id="rechercher">Rechercher</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Quelques bonnes pratiques d'accessibilité...</h1>
+        <div class="centre">
+            <button id="textes">Afficher les textes alternatifs des images</button>
+        </div>
+        <img class="decorative" src="decorative-image.jpg" alt="decoration" />
+        <h2>Que faire avec des images décoratives ?</h2>
+        <p class="p1">Utiliser des attributs "alt" vides ou nuls afin d'éviter qu'elles soient lues par les technologies d'assistance.</p>
+        <img class="info" src="informative-image.jpg" alt="Couverture du livre Accessibilité et handicap de Joël Zaffran au édition PUG" title="Couverture du livre Accessibilité et handicap de Joël Zaffran au édition PUG" />
+        <h2>Quoi mettre dans les alternatives textuelles des images informatives ?</h2>
+        <p class="p1">Des descriptions appropriées pour fournir des informations équivalentes pour les utilisateurs qui ne peuvent pas voir les images. Les attributs title et aria-describedby ne sont pas indispensables !</p>
+        <img class="semantic" src="semantique-html.jpg" alt="Image illisible illustrant une page avec des balises sémantique HTML" title="Image illisible illustrant une page avec des balises sémantique HTML" />
+        <h2>Balises HTML sémantiques</h2>
+        <p class="p1">Utiliser des balises HTML sémantiques appropriées (telles que &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt;) pour améliorer la structure et la compréhension du contenu par les technologies d'assistance.</p>
+        <div class="centre">
+            <button id="descrip">Afficher la description de l'image</button>
+        </div>
+        <p class="p1 structure">Purement démonstratif, cette image affiche une page HTML avec les balises habituelles qui permettent de structurer le code de la page.</p>
+
+        <pre>
+            <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Exemple de Sémantique minimaliste HTML pour l'Accessibilité&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;header&gt;
+    &lt;h1&gt;Titre de la page&lt;/h1&gt;
+&lt;/header&gt;
+&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt; &lt;a href="#"&gt;Accueil&lt;/a&gt; &lt;/li&gt;
+        &lt;li&gt; &lt;a href="#"&gt;À propos&lt;/a&gt; &lt;/li&gt;
+        &lt;li&gt; &lt;a href="#"&gt;Services&lt;/a&gt; &lt;/li&gt;
+        &lt;li&gt; &lt;a href="#"&gt;Contact&lt;/a&gt; &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;main&gt;
+    &lt;h2&gt;Contenu principal &lt;/h2&gt;
+    &lt;p&gt;un paragraphe &lt;/p&gt;
+    &lt;p&gt;un autre paragraphe &lt;/p&gt;
+&lt;/main&gt;
+&lt;footer&gt;
+    &lt;p&gt;Copyright © 2023. Tous droits réservés. &lt;/p&gt;
+&lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;            
+            </code>
+        </pre>
+
+
+        <img class="ordi" src="image-clavier.png" alt="Image qui illustre l'accès au clavier sans possibilité d'utiliser la souris" title="Image qui illustre l'accès au clavier sans possibilité d'utiliser la souris" />
+        <h2>Donner l'accès au clavier</h2>
+        <p class="p1">S'assurer que toutes les fonctionnalités du site sont accessibles via le clavier par les personnes qui ne peuvent pas utiliser la souris.</p>
+        <img class="contraste" src="contraste-image.png" alt="Image informative pour illustrer le contraste des couleurs sur une page de laposte.fr" title="Image informative pour illustrer le contraste des couleurs sur une page de laposte.fr" />
+        <h2>Régler les problèmes de contraste des couleurs</h2>
+        <p class="p1">Utiliser des combinaisons de couleurs offrant un contraste suffisant pour rendre le contenu lisible pour les personnes atteintes de déficience visuelle.</p>
+        <img class="formul" src="image-formulaire.png" alt="formulaire" title="Image d'un formulaire" />
+        <h2>Comment rendre les formulaires accessibles ?</h2>
+        <p class="p1">Il faut utiliser des balises HTML sémantiques et utiliser des patterns <abbr title="Accessible Rich Internet Applications" lang="en">ARIA</abbr> :</p>
+        <ul class="arias">
+            <li class="ariasli">aria-label</li>
+            <li class="ariasli">aria-live</li>
+            <li class="ariasli">aria-autocomplete</li>
+            <li class="ariasli">aria-checked</li>
+            <li class="ariasli">aria-modal</li>
+            <li class="ariasli">aria-selected</li>
+        </ul>
+        <p class="p1">... pour améliorer la compréhension du contenu par les technologies d'assistance.</p>
+        <h2>Comment réaliser un audit d'accessibilité de votre site web ?</h2>
+        <img class="ara" src="ara.png" alt="oiseau" title="Image d'un oiseau" />
+        <p class="p1"><span>ARA</span> vous propose une méthodologie pour réaliser 3 types d'audit</p>
+        <p class="p1"><span>Rapide</span> (25 critères du <abbr title="Référentiel Général de l'Amélioration de l'Accessibilité" lang="fr">RGAA</abbr>)</p>
+        <p class="p1"><span>Complétmentaire</span> (50 critères du <abbr title="Référentiel Général de l'Amélioration de l'Accessibilité" lang="fr">RGAA</abbr>)</p>
+        <p class="p1"><span>Complet</span> dit de conformité (106 critères du <abbr title="Référentiel Général de l'Amélioration de l'Accessibilité" lang="fr">RGAA</abbr>)</p>
+        <p class="p1"><a href="https://ara.numerique.gouv.fr/audits/nouveau" title="Page vers l'outil d'audit ARA - nouvelle fenêtre" target="_blank">Lien pour effectuer un audit d'un site web</a></p>
+        <p class="p1"><a href="https://ara.numerique.gouv.fr/ressources/outils" title="Page vers l'outil d'audit ARA - nouvelle fenêtre" target="_blank">Lien vers une liste d'outils pour tester l'accessibilité</a></p>
+        <footer>
+            <p>© 2023 HandiA11y. Tous droits réservés.</p>
+            <p>Envoyez un courriel à <a class="lemail" href="mailto:philippe.bouget(@)laposte.net" title="adresse mail - nouvelle fenêtre">philippe.bouget(@)laposte.net</a> si vous souhaitez suivre une formation sur l'accessibilité.</p>
+        </footer>
+    </main>
+</body>

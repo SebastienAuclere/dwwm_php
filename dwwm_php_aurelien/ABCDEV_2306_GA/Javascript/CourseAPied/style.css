@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E4D9FF;
+    background-color: #111111;
+}
+
+p {
+    display: inline;
+    color: #085E8F;
+    background-color: #E4D9FF;
+    padding: 5px 5px 5px 5px;
+}
+
+.grandiv {
+    margin-top: 20px;
+}
+
+.petitdiv, label {
+    background-color: #085E8F;
+    padding: 5px 5px 5px 5px;
+}
+
+.grandiv {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+
+table {
+    margin-top: 1.5%;
+}
+
+table, th, td {
+    background-color: #085E8F;
+    color: #E4D9FF;
+}
+
+td {
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+}

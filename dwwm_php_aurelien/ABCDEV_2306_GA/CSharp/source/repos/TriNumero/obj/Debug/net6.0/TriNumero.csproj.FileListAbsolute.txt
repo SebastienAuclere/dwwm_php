@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\TriNumero\bin\Debug\net6.0\TriNumero.exe
+C:\Users\agibier\source\repos\TriNumero\bin\Debug\net6.0\TriNumero.deps.json
+C:\Users\agibier\source\repos\TriNumero\bin\Debug\net6.0\TriNumero.runtimeconfig.json
+C:\Users\agibier\source\repos\TriNumero\bin\Debug\net6.0\TriNumero.dll
+C:\Users\agibier\source\repos\TriNumero\bin\Debug\net6.0\TriNumero.pdb
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\TriNumero.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\TriNumero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\TriNumero.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\TriNumero.AssemblyInfo.cs
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\TriNumero.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\TriNumero.dll
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\refint\TriNumero.dll
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\TriNumero.pdb
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\TriNumero.genruntimeconfig.cache
+C:\Users\agibier\source\repos\TriNumero\obj\Debug\net6.0\ref\TriNumero.dll

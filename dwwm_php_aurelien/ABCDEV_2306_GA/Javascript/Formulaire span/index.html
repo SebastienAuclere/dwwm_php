@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Saisissez un prénom et un âge</h1>
+    <label>Prénom: <input type="text" id="prenom" name="prenom" required minlength="4" maxlength="20" size="10"/></label>
+    <label>Âge: <input type="number" id="age" name="age" required value="18" min="1" max="120"/></label>
+    <button id="valider">Valider</button>
+    <button id="vider">Vider</button>
+    <hr/>
+    <p id="affichage"><span id="bonjour"></span><span id="leprenom"></span><span id="votreage"></span><span id="lage"></span></p>
+    <p id="majorité"><span id="vousetes"></span><span id="minmaj"></span></p>
+    <p id="retraite"><span id="vousprenez"></span><span id="ageretraite"></span><span id="annee"></span></p>
+</body>
+<script src="script.js"></script>
+</html>

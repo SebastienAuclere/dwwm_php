@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\Fourchette\bin\Debug\net6.0\Fourchette.exe
+C:\Users\agibier\source\repos\Fourchette\bin\Debug\net6.0\Fourchette.deps.json
+C:\Users\agibier\source\repos\Fourchette\bin\Debug\net6.0\Fourchette.runtimeconfig.json
+C:\Users\agibier\source\repos\Fourchette\bin\Debug\net6.0\Fourchette.dll
+C:\Users\agibier\source\repos\Fourchette\bin\Debug\net6.0\Fourchette.pdb
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\Fourchette.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\Fourchette.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\Fourchette.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\Fourchette.AssemblyInfo.cs
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\Fourchette.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\Fourchette.dll
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\refint\Fourchette.dll
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\Fourchette.pdb
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\Fourchette.genruntimeconfig.cache
+C:\Users\agibier\source\repos\Fourchette\obj\Debug\net6.0\ref\Fourchette.dll

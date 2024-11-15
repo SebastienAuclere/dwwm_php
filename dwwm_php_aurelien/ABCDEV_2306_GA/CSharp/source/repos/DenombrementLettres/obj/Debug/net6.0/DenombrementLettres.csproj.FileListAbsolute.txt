@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\DenombrementLettres\bin\Debug\net6.0\DenombrementLettres.exe
+C:\Users\agibier\source\repos\DenombrementLettres\bin\Debug\net6.0\DenombrementLettres.deps.json
+C:\Users\agibier\source\repos\DenombrementLettres\bin\Debug\net6.0\DenombrementLettres.runtimeconfig.json
+C:\Users\agibier\source\repos\DenombrementLettres\bin\Debug\net6.0\DenombrementLettres.dll
+C:\Users\agibier\source\repos\DenombrementLettres\bin\Debug\net6.0\DenombrementLettres.pdb
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\DenombrementLettres.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\DenombrementLettres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\DenombrementLettres.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\DenombrementLettres.AssemblyInfo.cs
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\DenombrementLettres.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\DenombrementLettres.dll
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\refint\DenombrementLettres.dll
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\DenombrementLettres.pdb
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\DenombrementLettres.genruntimeconfig.cache
+C:\Users\agibier\source\repos\DenombrementLettres\obj\Debug\net6.0\ref\DenombrementLettres.dll

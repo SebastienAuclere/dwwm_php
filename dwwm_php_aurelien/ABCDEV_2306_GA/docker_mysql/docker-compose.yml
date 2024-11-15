@@ -1,0 +1,35 @@
+version: '3.2'
+ 
+services:
+    mysql:
+        image: mysql:latest
+        restart: unless-stopped
+        container_name: mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: nom_base_donnee
+            MYSQL_USER: adeline
+            MYSQL_PASSWORD: 1234
+        volumes:
+            - ./data/mysql:/var/lib/mysql
+        networks:
+            - phpmyadmin_net
+    phpmyadmin:
+        image: phpmyadmin:latest
+        restart: unless-stopped
+        container_name: phpmyadmin
+        environment:
+            PMA_HOST: mysql
+        ports:
+            - 8081:80
+        networks:
+            - phpmyadmin_net
+
+networks:
+    phpmyadmin_net:
+        driver: bridge
+
+
+
+
+                    

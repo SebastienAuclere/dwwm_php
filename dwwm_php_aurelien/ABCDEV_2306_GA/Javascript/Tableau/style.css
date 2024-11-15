@@ -1,0 +1,49 @@
+* {
+    font-family: Verdana;
+    color: #536b78;
+}
+
+body {
+    border: 1px solid blue;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    background-color: #536b78;
+}
+
+h1 {
+    color: #accbe1;
+}
+
+p, label {
+    color: #accbe1;
+    font-weight: bold;
+}
+
+div {
+    border-style: dashed;
+    border-color: #c0d8e4;
+    border-width: 1px;
+    padding: 1%;
+}
+
+li {
+    color: #c0d8e4;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    color: #c0d8e4;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+th {
+    color: #c0d8e4;
+    border: 1px solid white;
+    padding: 10px;
+}

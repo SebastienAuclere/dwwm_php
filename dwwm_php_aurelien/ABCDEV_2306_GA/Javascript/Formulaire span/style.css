@@ -1,0 +1,9 @@
+* {
+    font-family: Verdana;
+}
+
+body {
+    border: 1px solid blue;
+    padding-left: 1%;
+    padding-right: 1%;
+}

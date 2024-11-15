@@ -1,0 +1,30 @@
+* {
+    font-family: Verdana;
+}
+
+body {
+    border: 1px solid purple;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.divparent {
+    border: 1px dashed green;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+#name1 {
+    margin-left: 3.5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border: 1px solid green;
+}
+
+#password1 {
+    margin-left: 2%;
+    margin-bottom: 1%;
+    border: 1px solid green;
+}

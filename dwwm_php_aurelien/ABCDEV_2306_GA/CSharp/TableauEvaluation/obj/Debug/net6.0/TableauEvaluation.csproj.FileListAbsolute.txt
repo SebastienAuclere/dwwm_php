@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\TableauEvaluation\bin\Debug\net6.0\TableauEvaluation.exe
+C:\Users\agibier\source\repos\TableauEvaluation\bin\Debug\net6.0\TableauEvaluation.deps.json
+C:\Users\agibier\source\repos\TableauEvaluation\bin\Debug\net6.0\TableauEvaluation.runtimeconfig.json
+C:\Users\agibier\source\repos\TableauEvaluation\bin\Debug\net6.0\TableauEvaluation.dll
+C:\Users\agibier\source\repos\TableauEvaluation\bin\Debug\net6.0\TableauEvaluation.pdb
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\TableauEvaluation.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\TableauEvaluation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\TableauEvaluation.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\TableauEvaluation.AssemblyInfo.cs
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\TableauEvaluation.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\TableauEvaluation.dll
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\refint\TableauEvaluation.dll
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\TableauEvaluation.pdb
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\TableauEvaluation.genruntimeconfig.cache
+C:\Users\agibier\source\repos\TableauEvaluation\obj\Debug\net6.0\ref\TableauEvaluation.dll

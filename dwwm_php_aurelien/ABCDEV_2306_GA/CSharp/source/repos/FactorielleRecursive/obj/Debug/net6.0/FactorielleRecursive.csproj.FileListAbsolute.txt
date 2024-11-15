@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\FactorielleRecursive\bin\Debug\net6.0\FactorielleRecursive.exe
+C:\Users\agibier\source\repos\FactorielleRecursive\bin\Debug\net6.0\FactorielleRecursive.deps.json
+C:\Users\agibier\source\repos\FactorielleRecursive\bin\Debug\net6.0\FactorielleRecursive.runtimeconfig.json
+C:\Users\agibier\source\repos\FactorielleRecursive\bin\Debug\net6.0\FactorielleRecursive.dll
+C:\Users\agibier\source\repos\FactorielleRecursive\bin\Debug\net6.0\FactorielleRecursive.pdb
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\FactorielleRecursive.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\FactorielleRecursive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\FactorielleRecursive.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\FactorielleRecursive.AssemblyInfo.cs
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\FactorielleRecursive.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\FactorielleRecursive.dll
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\refint\FactorielleRecursive.dll
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\FactorielleRecursive.pdb
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\FactorielleRecursive.genruntimeconfig.cache
+C:\Users\agibier\source\repos\FactorielleRecursive\obj\Debug\net6.0\ref\FactorielleRecursive.dll

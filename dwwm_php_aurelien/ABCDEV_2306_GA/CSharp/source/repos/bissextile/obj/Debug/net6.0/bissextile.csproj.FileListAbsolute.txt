@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\bissextile\bin\Debug\net6.0\bissextile.exe
+C:\Users\agibier\source\repos\bissextile\bin\Debug\net6.0\bissextile.deps.json
+C:\Users\agibier\source\repos\bissextile\bin\Debug\net6.0\bissextile.runtimeconfig.json
+C:\Users\agibier\source\repos\bissextile\bin\Debug\net6.0\bissextile.dll
+C:\Users\agibier\source\repos\bissextile\bin\Debug\net6.0\bissextile.pdb
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\bissextile.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\bissextile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\bissextile.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\bissextile.AssemblyInfo.cs
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\bissextile.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\bissextile.dll
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\refint\bissextile.dll
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\bissextile.pdb
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\bissextile.genruntimeconfig.cache
+C:\Users\agibier\source\repos\bissextile\obj\Debug\net6.0\ref\bissextile.dll

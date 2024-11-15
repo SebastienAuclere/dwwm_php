@@ -1,0 +1,42 @@
+* {
+    font-family: Verdana;
+}
+
+body {
+    border: 1px solid blue;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+div {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#age, #prenom, #valider, #vider {
+    border: 1px solid blue;
+}
+
+.bouton {
+    display: inline;
+}
+
+.marge {
+    margin-top: 2%;
+}
+
+#affichage, #blueprenom, #affichageAge, #blueage {
+    display: inline;
+}
+
+#majorite, #bluemajorite {
+    display: inline;
+}
+
+#retraitea, #blueretraite, #retraiteb {
+    display: inline;
+}
+
+#bluemajorite, #blueprenom, #blueage, #blueretraite {
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\Diviseurs\bin\Debug\net6.0\Diviseurs.exe
+C:\Users\agibier\source\repos\Diviseurs\bin\Debug\net6.0\Diviseurs.deps.json
+C:\Users\agibier\source\repos\Diviseurs\bin\Debug\net6.0\Diviseurs.runtimeconfig.json
+C:\Users\agibier\source\repos\Diviseurs\bin\Debug\net6.0\Diviseurs.dll
+C:\Users\agibier\source\repos\Diviseurs\bin\Debug\net6.0\Diviseurs.pdb
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\Diviseurs.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\Diviseurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\Diviseurs.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\Diviseurs.AssemblyInfo.cs
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\Diviseurs.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\Diviseurs.dll
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\refint\Diviseurs.dll
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\Diviseurs.pdb
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\Diviseurs.genruntimeconfig.cache
+C:\Users\agibier\source\repos\Diviseurs\obj\Debug\net6.0\ref\Diviseurs.dll

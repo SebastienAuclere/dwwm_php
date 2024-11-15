@@ -1,0 +1,36 @@
+<?php
+
+class Utilisateurs
+{
+    private PDO $connexion;
+
+    public function __construct()
+    {
+        $this->connexion = Dbconnect::getInstance();
+    }
+    
+    public function authenticate($mail_user, $pass_user) : array
+    {
+        $pdoStatement = $this->connexion->prepare("SELECT * FROM utilisateurs WHERE mail_user = :mail_user");
+        $pdoStatement->bindParam(':mail_user', $mail_user, PDO::PARAM_STR); // Exemple de hachage de mot de passe
+        $pdoStatement->execute();
+        
+        $nbLignes = $pdoStatement->rowCount();
+
+        if($nbLignes === 1) {
+            $row = $pdoStatement->fetch(PDO::FETCH_ASSOC);
+            if(password_verify($pass_user, $row["pass_user"]) === true) {
+                return $row;
+            }
+            return [];
+        }
+        return [];
+    }
+
+    public function deconnexion($logout) : void {
+        if($logout === 1) {
+            session_destroy();
+            header("Location: ./liste.php");
+        }
+    }
+}

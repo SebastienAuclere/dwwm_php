@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\NombrePremier\bin\Debug\net6.0\NombrePremier.exe
+C:\Users\agibier\source\repos\NombrePremier\bin\Debug\net6.0\NombrePremier.deps.json
+C:\Users\agibier\source\repos\NombrePremier\bin\Debug\net6.0\NombrePremier.runtimeconfig.json
+C:\Users\agibier\source\repos\NombrePremier\bin\Debug\net6.0\NombrePremier.dll
+C:\Users\agibier\source\repos\NombrePremier\bin\Debug\net6.0\NombrePremier.pdb
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\NombrePremier.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\NombrePremier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\NombrePremier.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\NombrePremier.AssemblyInfo.cs
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\NombrePremier.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\NombrePremier.dll
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\refint\NombrePremier.dll
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\NombrePremier.pdb
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\NombrePremier.genruntimeconfig.cache
+C:\Users\agibier\source\repos\NombrePremier\obj\Debug\net6.0\ref\NombrePremier.dll

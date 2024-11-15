@@ -1,0 +1,6 @@
+C:\Users\agibier\source\repos\TestProjectBarnabe\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\agibier\source\repos\TestProjectBarnabe\obj\Debug\net6.0\TestProjectBarnabe.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\TestProjectBarnabe\obj\Debug\net6.0\TestProjectBarnabe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\TestProjectBarnabe\obj\Debug\net6.0\TestProjectBarnabe.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\TestProjectBarnabe\obj\Debug\net6.0\TestProjectBarnabe.AssemblyInfo.cs
+C:\Users\agibier\source\repos\TestProjectBarnabe\obj\Debug\net6.0\TestProjectBarnabe.csproj.CoreCompileInputs.cache

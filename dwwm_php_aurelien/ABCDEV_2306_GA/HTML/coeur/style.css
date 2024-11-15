@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.couleurblanc {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.couleurnoir {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}

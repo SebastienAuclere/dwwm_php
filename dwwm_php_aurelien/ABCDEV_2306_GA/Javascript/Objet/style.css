@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana;
+    color: green;
+}
+
+body {
+    border: 1px solid green;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+table {
+    background-color: beige;
+}
+
+th,td {
+    background-color: lime;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: black;
+}
+
+div {
+    margin: 2%;
+}
+
+#name1, #name2 {
+    margin-left: 3.5%;
+}
+
+#name3 {
+    margin-left: 4.5%;
+}
+
+input {
+    color: black;
+    background-color: lime;
+}
+
+
+

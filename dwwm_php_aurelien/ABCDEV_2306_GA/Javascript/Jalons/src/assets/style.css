@@ -1,0 +1,62 @@
+:root {
+    --base-bg: #2D3142;
+    --base-link: #BFC0C0;
+    --base-txt: #EF8354;
+    --base-btn: #4F5D75;
+    --base-border: #4F5D75;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #2D3142;
+    color: #BFC0C0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    border: 2px solid;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+
+label {
+    color: #EF8354;
+    margin-right: 10rem;
+    position: relative;
+}
+
+#site-search {
+    background-color: #467599;
+    color: white;
+    border: none;
+}
+
+p {
+    display: inline;
+    background-color: #BFC0C0;
+    color: #467599;
+    padding: 0.3%;
+    margin-left: 1rem;
+}
+
+table {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background-color: #467599;
+    padding-right: 1rem;
+}
+
+::placeholder {
+    color: #BFC0C0;
+    opacity: 1; /* Firefox */
+}
+
+td {
+    padding: 1%;
+}
+

@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS";
+}
+
+#caret {
+    width: 15px;
+}
+
+#trihaut, #tribas {
+    background: none;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px black solid;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+.duplication, .suppression {
+    color: white;
+    cursor: pointer;
+    transition: all ease .8s;
+    margin: .1rem;
+    padding: .2rem;
+    user-select: none;
+}
+
+.duplication {
+    background-color: #3B71CA;
+}
+
+.suppression {
+    background-color: #DC4C64;
+}
+
+.duplication:hover {
+    color: #3B71CA;
+    background-color: white;
+}
+
+
+.suppression:hover {
+    color: #DC4C64;
+    background-color: white;
+}
+

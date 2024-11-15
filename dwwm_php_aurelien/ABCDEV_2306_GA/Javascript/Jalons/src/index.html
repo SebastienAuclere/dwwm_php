@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr-be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats du tournoi de Football</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- <script src="./assets/vue.global.js"></script> -->
+    <script src="./assets/main.js" type="module"></script>
+</head>
+<body>
+    <div id="appFootball">
+        <h1>Tournoi de Football</h1>
+        <p><span id="nbEquipe"></span> équipes</p>
+        <p><span id="nbMatch"></span> matchs joués</p>
+        <h1>Match joués</h1>
+        <label for="site-search">Filtrer:</label>
+        <input type="search" id="site-search" name="q" />
+        <table>
+            <thead>
+                <tr id="objet">
+                    <th>Equipe 1</th>
+                    <th>Equipe 2</th>
+                    <th>Score 1</th>
+                    <th>Gagnant 1</th>
+                    <th>Score 2</th>
+                    <th>Gagnant 2</th>
+                </tr>
+            </thead>
+            <tbody id="createTab">
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\AppPoint\bin\Debug\net6.0\AppPoint.exe
+C:\Users\agibier\source\repos\AppPoint\bin\Debug\net6.0\AppPoint.deps.json
+C:\Users\agibier\source\repos\AppPoint\bin\Debug\net6.0\AppPoint.runtimeconfig.json
+C:\Users\agibier\source\repos\AppPoint\bin\Debug\net6.0\AppPoint.dll
+C:\Users\agibier\source\repos\AppPoint\bin\Debug\net6.0\AppPoint.pdb
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\AppPoint.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\AppPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\AppPoint.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\AppPoint.AssemblyInfo.cs
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\AppPoint.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\AppPoint.dll
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\refint\AppPoint.dll
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\AppPoint.pdb
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\AppPoint.genruntimeconfig.cache
+C:\Users\agibier\source\repos\AppPoint\obj\Debug\net6.0\ref\AppPoint.dll

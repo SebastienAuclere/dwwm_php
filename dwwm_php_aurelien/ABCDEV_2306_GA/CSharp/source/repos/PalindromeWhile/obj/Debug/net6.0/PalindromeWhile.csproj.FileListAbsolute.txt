@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\PalindromeWhile\bin\Debug\net6.0\PalindromeWhile.exe
+C:\Users\agibier\source\repos\PalindromeWhile\bin\Debug\net6.0\PalindromeWhile.deps.json
+C:\Users\agibier\source\repos\PalindromeWhile\bin\Debug\net6.0\PalindromeWhile.runtimeconfig.json
+C:\Users\agibier\source\repos\PalindromeWhile\bin\Debug\net6.0\PalindromeWhile.dll
+C:\Users\agibier\source\repos\PalindromeWhile\bin\Debug\net6.0\PalindromeWhile.pdb
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\PalindromeWhile.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\PalindromeWhile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\PalindromeWhile.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\PalindromeWhile.AssemblyInfo.cs
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\PalindromeWhile.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\PalindromeWhile.dll
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\refint\PalindromeWhile.dll
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\PalindromeWhile.pdb
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\PalindromeWhile.genruntimeconfig.cache
+C:\Users\agibier\source\repos\PalindromeWhile\obj\Debug\net6.0\ref\PalindromeWhile.dll

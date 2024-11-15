@@ -1,0 +1,15 @@
+C:\Users\agibier\source\repos\ConsoleAppB\bin\Debug\net6.0\ConsoleAppB.exe
+C:\Users\agibier\source\repos\ConsoleAppB\bin\Debug\net6.0\ConsoleAppB.deps.json
+C:\Users\agibier\source\repos\ConsoleAppB\bin\Debug\net6.0\ConsoleAppB.runtimeconfig.json
+C:\Users\agibier\source\repos\ConsoleAppB\bin\Debug\net6.0\ConsoleAppB.dll
+C:\Users\agibier\source\repos\ConsoleAppB\bin\Debug\net6.0\ConsoleAppB.pdb
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\ConsoleAppB.csproj.AssemblyReference.cache
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\ConsoleAppB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\ConsoleAppB.AssemblyInfoInputs.cache
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\ConsoleAppB.AssemblyInfo.cs
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\ConsoleAppB.csproj.CoreCompileInputs.cache
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\ConsoleAppB.dll
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\refint\ConsoleAppB.dll
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\ConsoleAppB.pdb
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\ConsoleAppB.genruntimeconfig.cache
+C:\Users\agibier\source\repos\ConsoleAppB\obj\Debug\net6.0\ref\ConsoleAppB.dll
