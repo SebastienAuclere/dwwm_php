@@ -1,7 +1,6 @@
  <?php
     class Dbconnect
     {
-
         //attributs
 
         private static ?PDO $connection = null;  // attr. prive static type pdo initialise null represente la connexion a la base de donnee

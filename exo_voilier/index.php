@@ -10,18 +10,29 @@
     <title>index.php</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+    <?php
 
+    require "./model/dbconnect.php";
+    require "./model/utilisateur.php";
+
+    $myUser = new Utilisateur(); 
+
+    if(isset($_POST['send']))
+    {
+        $myUser->signIn($_POST['email'], $_POST['pwd']);        
+    }
+    ?>
 <body>
     <a href="liste.php">cliquer ici</a>
     <div>
         <hr>
-        <form action="" method="get">
+        <form action="" method="POST">
             <h2>ACCES MEMBRES</h2>
             <label for="email" class="bottom">email</label>
             <input type="email" id="email" name="email" class="inputstyle1">
             <label for="pwd" class="top">Mot de passe</label><br>
             <input type="password" id="pwd" name="pwd" class="inputstyle2">
-            <input type="button" value="Valider" class="stylbut">
+            <input type="submit" value="Valider" name="send" class="stylbut">
         </form>
         <hr>
     </div>
