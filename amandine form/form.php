@@ -12,6 +12,23 @@ $message = '';
 $validationMailOk = '';
 $validationMailNotOk = '';
 
+function verifNomOuPrenom($_maChaine) : string {
+        $subject = $_maChaine;
+        $pattern = '/^[A-Za-zÀ-ÿ-]+$/';
+        $res = preg_match($subject,$pattern);
+ 
+        return $res;
+    }
+
+function verifNomEmail($_maChaine): string
+{
+    $subject = $_maChaine;
+    $pattern = '/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,}$/';
+    $res = preg_match($subject, $pattern);
+
+    return $res;
+}    
+
 function sendMail(string $_nom, string $_prenom, string $_email, string $_objet, string $_message)
 {
     if(
@@ -42,7 +59,7 @@ function sendMail(string $_nom, string $_prenom, string $_email, string $_objet,
 if($_POST) {
     if(isset($_POST['nom']) && $_POST['nom'] !== '')
     {
-        $nom = $_POST['nom'];
+        $nom = verifNomOuPrenom($_POST['nom']);
     }
     else
     {
@@ -51,7 +68,7 @@ if($_POST) {
 
     if(isset($_POST['prenom']) && $_POST['prenom'] !== '')
     {
-        $prenom = $_POST['prenom'];
+        $prenom = verifNomOuPrenom($_POST['prenom']);
     }
     else
     {
@@ -65,7 +82,7 @@ if($_POST) {
         filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)
     )
     {
-        $email = $POST['email'];
+        $email = verifNomEmail($POST['email']);
     }
     else
     {
@@ -74,7 +91,7 @@ if($_POST) {
 
     if(isset($_POST['objet']) && $_POST['objet'] !== '')
     {
-        $objet = $_POST['objet'];
+        $objet = htmlspecialchars($_POST['objet']);
     }
     else
     {
@@ -83,7 +100,7 @@ if($_POST) {
 
     if(isset($_POST['message']) && $_POST['message'] !== '')
     {
-        $message = $_POST['message'];
+        $message = htmlspecialchars($_POST['message']);
     }
     else
     {
@@ -92,12 +109,12 @@ if($_POST) {
 
     if (sendMail($nom, $prenom, $email, $objet, $message))
     {
-        $validationMailOk = "message envoyé avec succès !"
+        $validationMailOk = "message envoyé avec succès !";
     }
     else
     {
         $validationMailNotOk = "un probleme est survenu veuillez 
-        recommencer votre saisie"
+        recommencer votre saisie";
     }
 }
 ?>
@@ -112,12 +129,12 @@ if($_POST) {
 <body>
     <?php
 
-    if(empty(erreurs)){
+    if(empty($erreurs)){
         if($validationMailOk !==''){
             echo "<div class='valide'>le mail est envoyé</div>";
         }
         
-        if($validationMailNotOk !==''){
+        if($validationMailNotOk ===''){
             echo "<div class='notValide'>l'envoi du mail a echoué !</div>";
         }
     }
