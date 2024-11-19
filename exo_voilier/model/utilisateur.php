@@ -27,7 +27,7 @@ class Utilisateur
             if ($testMdp === true) {
                 //echo "ligne trouve";
                 //echo "Bonjour Me ou M " . $table['lastname_user'] . " vous êtes bien connecté.";
-                $_SESSION["nom_user"] = $table["lastname_user"];
+                $_SESSION["nom_user"] = $table["lastname_user"];  // Stocke le nom de famille de l'utilisateur dans la session : La clé lastname_user de l'array $table est assignée à la clé nom_user de la session.
                 $_SESSION["prenom_user"] = $table["firstname_user"];
                 $_SESSION["niveau_user"] = $table["level"];
                 return true;
