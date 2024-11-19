@@ -23,7 +23,7 @@ class RestoRepository
     public function searchAll(): array
     {
         $rq = "select * from " . $this->nomTable;
-        $res = $this->connect->query($rq, PDO::FETCH_ASSOC);
+        $res = $this->connect->query($rq, PDO::FETCH_ASSOC); // $this->connect : référence à une connexion à la base de données initialisée dans ta classe. query() : Cette méthode exécute une requête SQL. $rq : C'est ta requête SQL.PDO::FETCH_ASSOC : Cela indique que tu veux que les résultats soient retournés sous forme d'un tableau associatif.
         $tabData = $res->fetchAll();
         return $tabData;
     }
@@ -64,8 +64,8 @@ class RestoRepository
         $numberLigne = $this->connect->exec($rq);
         if ($numberLigne === 1) {
             return true;
-            return false;
         }
+        return false;
     }
     public function updateRestau(int $_id, string $_nom, string $_adresse, float $_prix, string $_Commentaire, int $_Note, string $_visite): bool
     {
