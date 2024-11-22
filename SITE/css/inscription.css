@@ -1,0 +1,32 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    text-align: center;
+}
+
+div {
+    width: 30%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    margin: auto;
+    border: 2px solid #f0eff0;
+    border-radius: 3px;
+}
+
+input[type=submit]{ 
+    box-shadow: 2px 2px 2px rgb(201, 201, 200);   
+    width:92.7%;
+    margin-top: 6%;
+    background-color: #04AA6D;
+    color:red;
+
+}
