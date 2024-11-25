@@ -16,17 +16,22 @@ h2 {
 }
 
 input{
+    font-size: 100%;
     width: 90%;
-    margin: auto;
+    padding: 3%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid #f0eff0;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 input[type=submit]{ 
     box-shadow: 2px 2px 2px rgb(201, 201, 200);   
-    width:92.7%;
-    margin-top: 6%;
+    width:97%;
+    margin-top: 4%;
+    border: none;
     background-color: #04AA6D;
-    color:red;
-
+    color:white;
+    border-radius: 5px;
 }
