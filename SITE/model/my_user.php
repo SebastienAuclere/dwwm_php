@@ -113,3 +113,4 @@ class CrudUtilisateur
     }
     // Cette fonction supprime l'utilisateur.
 }
+?>
