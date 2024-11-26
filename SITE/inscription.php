@@ -1,5 +1,5 @@
 <?php
-$connexion = new PDO('mysql:host=localhost;dbname=user_base1','root','');
+$connexion = new PDO('mysql:host=localhost;port=3306;dbname=user_base1','root','');
 if($connexion){
     echo "connecté";
 }
@@ -10,7 +10,7 @@ if($connexion){
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
