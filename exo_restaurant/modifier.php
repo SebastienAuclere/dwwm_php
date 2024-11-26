@@ -5,7 +5,7 @@ require "./model/liste_resto.php";
 $myCrud = new RestoRepository("restaurants");
 $data = $myCrud->chercherResteau($_GET["id"]);
 
-//$myObject2 = new RestoRepository("restaurants");
+
 
 if (isset($_POST["send"])) {
     $test = $myObject->updateRestau($_GET["id"], $_POST["name"], $_POST["address"], floatval($_POST["price"]), $_POST["comments"], intval($_POST["note"]), $_POST["visit"]);
