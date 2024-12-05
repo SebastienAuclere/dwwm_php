@@ -24,8 +24,8 @@ class CrudUtilisateur
     {
         $requeteSql = "select * from " . $this->nomTable;
         $resultat = $this->connect->query($requeteSql, PDO::FETCH_ASSOC);
-        $table_users = $resultat->fetchAll();
-        return $table_users;
+        $table_candidats = $resultat->fetchAll();
+        return $table_candidats;
     }
     // $this->nomTable : référence a la table users.
     // $this->connect : référence à une connexion à la base de données initialisée dans ta classe.
@@ -34,11 +34,11 @@ class CrudUtilisateur
     // PDO::FETCH_ASSOC : Cela indique que tu veux que les résultats soient
     // retournés sous forme d'un tableau associatif.
 
-    public function afficherLigneId($_id): array
+    public function afficherLigneEmail($_email): array
     {
-        $requeteSql = "select * from" . $this->nomTable . " where id = :idUser";
+        $requeteSql = "select * from" . $this->nomTable . " where mail_user = :mail_User";
         $resultat = $this->connect->prepare($requeteSql);
-        $resultat->bindParam(":idUser", $_id, PDO::PARAM_INT);
+        $resultat->bindParam(":mail_User", $_email, PDO::PARAM_INT);
         $resultat->execute();
         if(($ligne = $resultat->fetch(PDO::FETCH_ASSOC)) == false)
         {
@@ -55,7 +55,7 @@ class CrudUtilisateur
     // Utiliser prepare() permet de protéger contre les injections SQL, 
     // ce qui est essentiel pour la sécurité des applications web. 
     // Cette ligne lie le paramètre :idUser dans la requête SQL à la variable $_id.
-    // Le troisième argument,PDO::PARAM_STR, spécifie que le paramètre doit être traité comme une chaîne de caractères.
+    // Le troisième argument,PDO::PARAM_INT, spécifie que le paramètre doit être traité comme un integer.
     // Utiliser bindParam() permet de lier les valeurs des variables PHP aux paramètres dans la requête SQL de manière sécurisée. 
     // Cette ligne exécute la requête préparée avec les paramètres liés. Elle envoie la requête à la base de données pour être exécutée.  
     
