@@ -1,0 +1,40 @@
+{
+    "utilisateur":
+    [
+       {
+        "identifiantNum": "1",
+        "nomUtilisateur": "gibier",
+        "patronyme": "lechimiste",
+        "prenom": "aurelien",
+        "dateNaissance": "15/02/1995"
+       },
+       {
+        "identifiantNum": "2",
+        "nomUtilisateur": "benmessaoud",
+        "patronyme": "lasoudure",
+        "prenom": "habib",
+        "dateNaissance": "17/02/1950"
+       }, 
+       {
+        "identifiantNum": "3",
+        "nomUtilisateur": "thuet",
+        "patronyme": "lebogoss",
+        "prenom": "matthieu",
+        "dateNaissance": "14/09/1998"
+       }, 
+       {
+        "identifiantNum": "4",
+        "nomUtilisateur": "chatelot",
+        "patronyme": "francklundi",
+        "prenom": "franck",
+        "dateNaissance": "14/05/1932"
+       },
+       {
+        "identifiantNum": "5",
+        "nomUtilisateur": "auclere",
+        "patronyme": "corleone",
+        "prenom": "sebastien",
+        "dateNaissance": "17/08/1982"
+       } 
+    ]
+}
