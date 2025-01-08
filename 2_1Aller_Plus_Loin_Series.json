@@ -1,0 +1,20 @@
+{
+    "series":
+    [
+        {
+            "seriePopulaire1":"breaking bad"
+        },
+        {
+            "seriePopulaire2":"breaking bad"
+        }, 
+        {
+            "seriePopulaire3":"breaking bad"
+        }, 
+        {
+            "seriePopulaire4":"breaking bad"
+        }, 
+        {
+            "seriePopulaire5":"breaking bad"
+        }
+    ]
+}
