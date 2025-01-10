@@ -1,0 +1,1 @@
+DELETE FROM `users` WHERE `id` = '2';base_donnee_wpwp_options
