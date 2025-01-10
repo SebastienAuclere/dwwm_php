@@ -16,11 +16,11 @@ $chaine = "Mike";
 $tableau = ["Joe", "Jack", "Cindy" ];
 $objet = new User();
 
-echo $booleen;
-echo $nombre;
-echo $reel;
-echo $chaine;
-echo $tableau;
+echo $booleen ."<br/>";
+echo $nombre ."<br/>";
+echo $reel ."<br/>";
+echo $chaine ."<br/>";
+echo $tableau ."<br/>";
 echo $objet;
 
 //phpinfo();
