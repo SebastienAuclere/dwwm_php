@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html lang="fr-fr">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire de contact</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Formulaire</title>
+    <style>
+        label { display: inline-block; width: 240px;}
+        div { margin: 5px; }
+    </style>
 </head>
 <body>
-    <h2>Formulaire de contact</h2>
+    <h1>Formulaire de contact</h1>
     <form action="traitement-contact.php" method="POST">
-        <label for="monNom">Nom :</label>
 
-        <input type="text" id="monNom" name="nom" required pattern="^[A-Za-z '-]+$" minlength="2" maxlength="20">
-        <label for="dateNaissance">Date de naissance :</label>
+        <div>
+            <label for="monNom">Votre Nom :</label> 
+            <input type="text" id="monNom" name="nom" required> 
+        </div>
 
-        <input type="date" id="dateNaissance" name="date" title="format de la date : 2024-01-17" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}" maxlength="8" required>
-        <label for="Email">Email :</label>
+        <div>
+            <label for="maDate">Votre Date de naissance :</label> 
+            <input type="date" id="maDate" name="dateDeNaissance" required>  
+        </div>
 
-        <input type="email" id="Email" name="email" required pattern="^[A-Za-z]+@{1}[A-Za-z]+\.{1}[A-Za-z]{2,}$">
-        <label for="Message">Message :</label>
+        <div>
+            <label for="monEmail">Votre Adresse email :</label> 
+            <input type="email" id="monEmail" name="email" required>  
+        </div>
 
-        <textarea id="Message" name="message" required>Entrer votre message ici</textarea>
+        <div>
+            <label for="monMessage">Votre message :</label> 
+            <textarea id="monMessage" name="message" required></textarea>   
+        </div>
+    
+        <button type="submit">Envoyer</button>
 
-        <button type="submit">Valider</button>
     </form>
-
-    <?php
-
-        $nom = $_POST["nom"]; 
-        $dateNaissance = $_POST["date"];
-        $email = $_POST["email"];
-        $message = $_POST["message"];       
-
-    ?>
 </body>
 </html>    
