@@ -14,7 +14,7 @@
         <input type="text" id="monNom" name="nom" required pattern="^[A-Za-z '-]+$" minlength="2" maxlength="20">
         <label for="dateNaissance">Date de naissance :</label>
 
-        <input type="date" id="dateNaissance" name="date" title="format de la date : 01.01.25" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}" maxlength="8" required>
+        <input type="date" id="dateNaissance" name="date" title="format de la date : 2024-01-17" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}" maxlength="8" required>
         <label for="Email">Email :</label>
 
         <input type="email" id="Email" name="email" required pattern="^[A-Za-z]+@{1}[A-Za-z]+\.{1}[A-Za-z]{2,}$">
