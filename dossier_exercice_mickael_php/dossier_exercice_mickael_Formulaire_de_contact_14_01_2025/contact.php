@@ -30,14 +30,7 @@
         $nom = $_POST["nom"]; 
         $dateNaissance = $_POST["date"];
         $email = $_POST["email"];
-        $message = $_POST["message"];
-
-
-        if(strlen($nom)>2){
-            if(preg_match('[A-Za-z]{2,}',$pseudo)){
-
-            }
-        }
+        $message = $_POST["message"];       
 
     ?>
 </body>
