@@ -1,6 +1,6 @@
 <?php 
 
-// Si la requpête est de type POST
+// Si la requpête est de type POST (autre manière : mickael explique : if $_SERVER["REQUEST_METHOD"] == "POST" )
 if(!empty($_POST)) {
 
     try {
@@ -50,7 +50,8 @@ if(!empty($_POST)) {
         // Supprime les éventuelles balises HTML
         // Permet d'éviter l'injection de <script>
         $message = strip_tags($message);
-
+        // Convertit les sauts de lignes en balises `<br>`
+        $message = nl2br($message);
         // A partir de ce point, on considère que les données sont valides
 
         // contrôle de l'âge !
@@ -73,6 +74,7 @@ if(!empty($_POST)) {
 
     } catch(Exception $ex) {
         echo 'Erreur: '. $ex->getMessage();
-    }
+        exit;
+    } // fin du try/catch
 
-}
+} // fin du if (!empty($_POST))
