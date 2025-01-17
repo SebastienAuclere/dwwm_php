@@ -1,0 +1,15 @@
+label{
+    display: block;
+    margin: 12px 0px 5px;
+}
+
+h1{
+    color: rgb(79, 79, 250);
+    
+   
+}
+fieldset{
+    width: 20%;
+    margin: 50px auto;
+    justify-content: center;
+}
