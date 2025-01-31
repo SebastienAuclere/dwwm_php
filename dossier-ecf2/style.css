@@ -1,0 +1,46 @@
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+.montserrat-font {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+form{
+    width: 200px;
+    margin-left: 50px;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+}
+
+div{
+    margin: 8px;
+}
+
+h2{
+  font-weight: normal; 
+  margin-left: 70px;
+  color: rgb(97, 95, 95);
+}
+
+input{
+    color:grey;
+    padding:8px;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius:6px;
+    box-shadow: 5px 4px 8px rgb(224, 224, 224); ;
+}
+
+.button{
+    color:white;
+    padding:8px;
+    margin-left: 50px;
+    background-color: orange;
+    border-radius:15px;
+    border-style: none;
+}
